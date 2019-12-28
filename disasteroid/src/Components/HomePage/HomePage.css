@@ -1,0 +1,73 @@
+.home-section {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 3px;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+  background: rgba(31, 28, 28, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+#sub-title {
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.git-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Button */
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  border: solid 3px !important;
+  /* border-color: rgba(255, 255, 255, 0.15) !important; */
+  border-radius: 3em;
+  color: #0f0f0f !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.65em;
+  font-weight: 900;
+  height: calc(4.75em + 2px);
+  letter-spacing: 0.3em;
+  line-height: 4.75em;
+  outline: 0;
+  padding: 0 3.75em;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+button:hover,
+.button:hover {
+  border-color: rgba(255, 255, 255, 0.55) !important;
+}
