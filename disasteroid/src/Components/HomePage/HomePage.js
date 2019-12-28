@@ -24,7 +24,7 @@ class HomePage extends Component {
             <a
               href="https://github.com/arquLV/Disasteroid"
               target="_blank"
-              class="button scrolly"
+              className="button scrolly"
             >
               GitHub
             </a>

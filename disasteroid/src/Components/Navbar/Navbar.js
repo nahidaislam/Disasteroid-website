@@ -4,20 +4,12 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
 
 class Navbar extends Component {
-  // state = { isOpen: false };
-
-  // handleToggle = () => {
-  //   this.setState({ isOpen: !this.state.isOpen });
-  // };
-
   render() {
     return (
       <div id="nav-bar">
         <nav className="navbar navbar-default navbar-fixed-top sticky">
           <div className="navigationbar">
-            <ul
-            // className={this.state.isOpen ? "nav-links show nav" : "nav-links"}
-            >
+            <ul>
               <li>
                 <Link
                   activeClass="active"
@@ -26,12 +18,11 @@ class Navbar extends Component {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  activeClassName="selected"
                 >
                   Home
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   activeClass="active"
                   to="demo"
@@ -42,7 +33,7 @@ class Navbar extends Component {
                 >
                   Demo
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   activeClass="active"
@@ -55,7 +46,7 @@ class Navbar extends Component {
                   Process
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   activeClass="active"
                   to="gallery"
@@ -78,7 +69,7 @@ class Navbar extends Component {
                 >
                   Team
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
