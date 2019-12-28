@@ -22,7 +22,7 @@ class Navbar extends Component {
                   Home
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link
                   activeClass="active"
                   to="demo"
@@ -33,7 +33,7 @@ class Navbar extends Component {
                 >
                   Demo
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link
                   activeClass="active"

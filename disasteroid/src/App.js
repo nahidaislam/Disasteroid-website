@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 // import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import HomePage from "./Components/HomePage/HomePage";
-// import DemoPage from "./Components/DemoPage/DemoPage";
+import DemoPage from "./Components/DemoPage/DemoPage";
 import ProcessPage from "./Components/ProcessPage/ProcessPage";
 // import GalleryPage from "./Components/GalleryPage/GalleryPage";
 // import TeamPage from "./Components/TeamPage/TeamPage";
@@ -18,6 +18,9 @@ class App extends Component {
         <Navbar />
         <Element name="home">
           <HomePage />
+        </Element>
+        <Element name="demo">
+          <DemoPage />
         </Element>
         <Element name="process">
           <ProcessPage />
