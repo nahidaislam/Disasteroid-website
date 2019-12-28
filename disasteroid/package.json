@@ -4,6 +4,7 @@
   "private": true,
   "homepage": " http://nahidaislam.github.io/Disasteroid/",
   "dependencies": {
+    "@material-ui/core": "^4.8.1",
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",
