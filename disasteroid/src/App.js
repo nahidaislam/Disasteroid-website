@@ -16,21 +16,23 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Element name="home">
-          <HomePage />
-        </Element>
-        <Element name="demo">
-          <DemoPage />
-        </Element>
-        <Element name="process">
-          <ProcessPage />
-        </Element>
-        <Element name="gallery">
-          <GalleryPage />
-        </Element>
-        <Element name="team">
-          <TeamPage />
-        </Element>
+        <div>
+          <Element name="home">
+            <HomePage />
+          </Element>
+          <Element name="demo">
+            <DemoPage />
+          </Element>
+          <Element name="process">
+            <ProcessPage />
+          </Element>
+          <Element name="gallery">
+            <GalleryPage />
+          </Element>
+          <Element name="team">
+            <TeamPage />
+          </Element>
+        </div>
       </div>
     );
   }

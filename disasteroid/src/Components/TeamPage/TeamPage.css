@@ -1,6 +1,7 @@
 .team-section {
   height: 100vh;
   background-image: linear-gradient(#0b1e39, #270730);
+  padding-top: 80px;
 }
 .profile-img {
   width: 9rem;
