@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import {
   Card,
-  CardActionArea,
-  CardActions,
   CardContent,
   Typography,
   Grid,
   Divider
 } from "@material-ui/core/";
+
+import ar from "../../Image/Technologies/ARCore.jpg";
+import blender from "../../Image/Technologies/blender.jpg";
+import unity from "../../Image/Technologies/unity.png";
 
 import "./ProcessPage.css";
 
@@ -34,23 +36,29 @@ class ProcessPage extends Component {
   render() {
     return (
       <div className="process-section" id="process">
-        <Grid container direction="row" justify="center" alignItems="center">
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+        <Grid
+          container
+          direction="rows"
+          justify="space-around"
+          alignContent="center"
+        >
+          <Grid item>
+            <Card className="card">
               <CardContent className={styles.content}>
                 <Typography
                   className={"MuiTypography--heading"}
                   variant={"h6"}
                   gutterBottom
                 >
-                  GOALS AND MOTIVATIONS
+                  Goals & motivations
                 </Typography>
                 <Divider className={styles.divider} light />
                 <Typography
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
+                  color={"inherit"}
                 >
-                  The goal of Disasteroid is to make dark humor themed
+                  The goal of Disasteroid is to make fun dark humor themed
                   collaborative AR game. The game involves the player to save
                   the earth from asteroids using missiles and a special weapon.
                   However, creating the missiles and the special weapon involves
@@ -61,62 +69,68 @@ class ProcessPage extends Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <CardContent className={styles.content}>
                 <Typography
                   className={"MuiTypography--heading"}
                   variant={"h6"}
                   gutterBottom
                 >
-                  GRAPHICS
+                  Graphics
                 </Typography>
                 <Divider className={styles.divider} light />
                 <Typography
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
+                  color={"inherit"}
                 >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
+                  Disasteroid is an earth-based game. It involves low poly
+                  earth. The earth is painted according to a vegetation map to
+                  give the player information about the population density. The
+                  player can then try to deflect the asteroids in a less dense
+                  area.
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <CardContent className={styles.content}>
                 <Typography
                   className={"MuiTypography--heading"}
                   variant={"h6"}
                   gutterBottom
                 >
-                  INTERACTION
+                  Interaction
                 </Typography>
                 <Divider className={styles.divider} light />
                 <Typography
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
+                  color={"inherit"}
                 >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
+                  The game can be played on android mobiles (Android 7.0 or
+                  later). ADD ABOUT THE NETWORKING.
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <CardContent className={styles.content}>
                 <Typography
                   className={"MuiTypography--heading"}
                   variant={"h6"}
                   gutterBottom
                 >
-                  3D MODELS
+                  3D Models
                 </Typography>
                 <Divider className={styles.divider} light />
                 <Typography
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
+                  color={"inherit"}
                 >
                   A satellite with a gun on top of it was 3D printed to
                   represent the special weapon. A image was attached to it in
@@ -125,41 +139,44 @@ class ProcessPage extends Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <CardContent className={styles.content}>
                 <Typography
                   className={"MuiTypography--heading"}
                   variant={"h6"}
                   gutterBottom
                 >
-                  TECHNOLOGIES
+                  Technologies
                 </Typography>
                 <Divider className={styles.divider} light />
-                <Typography
-                  className={"MuiTypography--subheading"}
-                  variant={"caption"}
-                >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
-                </Typography>
+                <a href="https://unity.com/" target="_blank">
+                  <img src={unity} alt="unity" className="techno-img" />
+                </a>
+                <a href="https://developers.google.com/ar" target="_blank">
+                  <img src={ar} alt="ARCore" className="techno-img" />
+                </a>
+                <a href="https://www.blender.org/" target="_blank">
+                  <img src={blender} alt="blender" className="techno-img" />
+                </a>
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <CardContent className={styles.content}>
                 <Typography
                   className={"MuiTypography--heading"}
                   variant={"h6"}
                   gutterBottom
                 >
-                  CHALLENGES AND LESSON LEARNED
+                  Challenges & Lesson Learned
                 </Typography>
                 <Divider className={styles.divider} light />
                 <Typography
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
+                  color={"inherit"}
                 >
                   We are going to learn different kinds of species in nature
                   that live together to form amazing environment.
@@ -173,23 +190,3 @@ class ProcessPage extends Component {
   }
 }
 export default ProcessPage;
-{
-  /* <Card className="cards">
-              <CardActionArea>
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="textSecondary"
-                    component="p"
-                  >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card> */
-}

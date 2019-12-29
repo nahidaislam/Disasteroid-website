@@ -44,9 +44,14 @@ class TeamPage extends Component {
   render() {
     return (
       <div className="team-section" id="team">
-        <Grid container direction="row" justify="center" alignItems="center">
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+        <Grid
+          container
+          direction="rows"
+          justify="space-around"
+          alignContent="center"
+        >
+          <Grid item>
+            <Card className="card">
               <img
                 src={arturs}
                 alt="profile-pricture"
@@ -74,8 +79,8 @@ class TeamPage extends Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <img
                 src={augustin}
                 alt="profile-pricture"
@@ -100,8 +105,8 @@ class TeamPage extends Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <img
                 src={chantal}
                 alt="profile-pricture"
@@ -126,8 +131,8 @@ class TeamPage extends Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <img src={miki} alt="profile-pricture" className="profile-img" />
               <CardContent className={styles.content}>
                 <Typography
@@ -149,8 +154,8 @@ class TeamPage extends Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <img
                 src={nahida}
                 alt="profile-pricture"
@@ -175,8 +180,8 @@ class TeamPage extends Component {
               </CardContent>
             </Card>
           </Grid>
-          <Grid container item xs={4} spacing={2}>
-            <Card className="cards">
+          <Grid item>
+            <Card className="card">
               <img
                 src={tingyi}
                 alt="profile-pricture"
