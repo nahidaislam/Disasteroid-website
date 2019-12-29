@@ -5,22 +5,13 @@ import {
   CardActions,
   CardContent,
   Typography,
-  Grid
+  Grid,
+  Divider
 } from "@material-ui/core/";
-import { withStyles } from "@material-ui/core/styles";
-import Divider from "@material-ui/core/Divider";
+
 import "./ProcessPage.css";
 
 const styles = muiBaseTheme => ({
-  // card: {
-  //   maxWidth: 300,
-  //   margin: "auto",
-  //   transition: "0.3s",
-  //   boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
-  //   "&:hover": {
-  //     boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
-  //   }
-  // },
   media: {
     paddingTop: "56.25%"
   },

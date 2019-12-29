@@ -1,6 +1,7 @@
 import React from "react";
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
 import Lightbox from "react-image-lightbox";
+// import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import { Grid } from "@material-ui/core/";
 import "./GalleryPage.css";
 
 import img1 from "../../Image/Process/image1.jpg";
@@ -28,131 +29,238 @@ class GalleryPage extends React.Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div className="gallery-section" id="gallery">
-        <Container>
-          <div className="mdb-lightbox no-margin">
-            <Row>
-              <Col md="3">
-                <figure>
-                  <img
-                    src={img1}
-                    alt="Gallery"
-                    className="img-fluid"
-                    onClick={() =>
-                      this.setState({ photoIndex: 0, isOpen: true })
-                    }
-                  />
-                </figure>
-              </Col>
-              <Col md="3">
-                <figure>
-                  <img
-                    src={img2}
-                    alt="Gallery"
-                    className="img-fluid"
-                    onClick={() =>
-                      this.setState({ photoIndex: 1, isOpen: true })
-                    }
-                  />
-                </figure>
-              </Col>
-              <Col md="3">
-                <figure>
-                  <img
-                    src={img3}
-                    alt="Gallery"
-                    className="img-fluid"
-                    onClick={() =>
-                      this.setState({ photoIndex: 2, isOpen: true })
-                    }
-                  />
-                </figure>
-              </Col>
-              <Col md="3">
-                <figure>
-                  <img
-                    src={img4}
-                    alt="Gallery"
-                    className="img-fluid"
-                    onClick={() =>
-                      this.setState({ photoIndex: 3, isOpen: true })
-                    }
-                  />
-                </figure>
-              </Col>
-              <Col md="3">
-                <figure>
-                  <img
-                    src={img5}
-                    alt="Gallery"
-                    className="img-fluid"
-                    onClick={() =>
-                      this.setState({ photoIndex: 4, isOpen: true })
-                    }
-                  />
-                </figure>
-              </Col>
-              <Col md="3">
-                <figure>
-                  <img
-                    src={img6}
-                    alt="Gallery"
-                    className="img-fluid"
-                    onClick={() =>
-                      this.setState({ photoIndex: 5, isOpen: true })
-                    }
-                  />
-                </figure>
-              </Col>
-              <Col md="3">
-                <figure>
-                  <img
-                    src={img7}
-                    alt="Gallery"
-                    className="img-fluid"
-                    onClick={() =>
-                      this.setState({ photoIndex: 6, isOpen: true })
-                    }
-                  />
-                </figure>
-              </Col>
-              <Col md="3">
-                <figure>
-                  <img
-                    src={img8}
-                    alt="Gallery"
-                    className="img-fluid"
-                    onClick={() =>
-                      this.setState({ photoIndex: 7, isOpen: true })
-                    }
-                  />
-                </figure>
-              </Col>
-            </Row>
-          </div>
-          {isOpen && (
-            <Lightbox
-              enableZoom={false}
-              mainSrc={images[photoIndex]}
-              nextSrc={images[(photoIndex + 1) % images.length]}
-              prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-              imageTitle={photoIndex + 1 + "/" + images.length}
-              onCloseRequest={() => this.setState({ isOpen: false })}
-              onMovePrevRequest={() =>
-                this.setState({
-                  photoIndex: (photoIndex + images.length - 1) % images.length
-                })
-              }
-              onMoveNextRequest={() =>
-                this.setState({
-                  photoIndex: (photoIndex + 1) % images.length
-                })
-              }
-            />
-          )}
-        </Container>
+        <div className="mdb-lightbox">
+          <Grid container direction="row" justify="center" alignItems="center">
+            <Grid container item xs={3} spacing={1}>
+              <figure className="frame">
+                <img
+                  src={img1}
+                  alt="Gallery"
+                  className="img-fluid"
+                  onClick={() => this.setState({ photoIndex: 0, isOpen: true })}
+                />
+              </figure>
+            </Grid>
+            <Grid container item xs={3} spacing={1}>
+              <figure className="frame">
+                <img
+                  src={img2}
+                  alt="Gallery"
+                  className="img-fluid"
+                  onClick={() => this.setState({ photoIndex: 1, isOpen: true })}
+                />
+              </figure>
+            </Grid>
+            <Grid container item xs={3} spacing={1}>
+              <figure className="frame">
+                <img
+                  src={img3}
+                  alt="Gallery"
+                  className="img-fluid"
+                  onClick={() => this.setState({ photoIndex: 2, isOpen: true })}
+                />
+              </figure>
+            </Grid>
+            <Grid container item xs={3} spacing={1}>
+              <figure className="frame">
+                <img
+                  src={img4}
+                  alt="Gallery"
+                  className="img-fluid"
+                  onClick={() => this.setState({ photoIndex: 3, isOpen: true })}
+                />
+              </figure>
+            </Grid>
+            <Grid container item xs={3} spacing={1}>
+              <figure className="frame">
+                <img
+                  src={img5}
+                  alt="Gallery"
+                  className="img-fluid"
+                  onClick={() => this.setState({ photoIndex: 4, isOpen: true })}
+                />
+              </figure>
+            </Grid>
+            <Grid container item xs={3} spacing={1}>
+              <figure className="frame">
+                <img
+                  src={img6}
+                  alt="Gallery"
+                  className="img-fluid"
+                  onClick={() => this.setState({ photoIndex: 5, isOpen: true })}
+                />
+              </figure>
+            </Grid>
+            <Grid container item xs={3} spacing={1}>
+              <figure className="frame">
+                <img
+                  src={img7}
+                  alt="Gallery"
+                  className="img-fluid"
+                  onClick={() => this.setState({ photoIndex: 6, isOpen: true })}
+                />
+              </figure>
+            </Grid>
+            <Grid container item xs={3} spacing={1}>
+              <figure className="frame">
+                <img
+                  src={img8}
+                  alt="Gallery"
+                  className="img-fluid"
+                  onClick={() => this.setState({ photoIndex: 7, isOpen: true })}
+                />
+              </figure>
+            </Grid>
+          </Grid>
+        </div>
+        {isOpen && (
+          <Lightbox
+            enableZoom={false}
+            mainSrc={images[photoIndex]}
+            nextSrc={images[(photoIndex + 1) % images.length]}
+            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+            imageTitle={photoIndex + 1 + "/" + images.length}
+            onCloseRequest={() => this.setState({ isOpen: false })}
+            onMovePrevRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + images.length - 1) % images.length
+              })
+            }
+            onMoveNextRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + 1) % images.length
+              })
+            }
+          />
+        )}
       </div>
     );
   }
 }
 
 export default GalleryPage;
+
+{
+  /* <Container>
+  <div className="mdb-lightbox no-margin">
+    <Row>
+      <Col md="3">
+        <figure>
+          <img
+            src={img1}
+            alt="Gallery"
+            className="img-fluid"
+            onClick={() =>
+              this.setState({ photoIndex: 0, isOpen: true })
+            }
+          />
+        </figure>
+      </Col>
+      <Col md="3">
+        <figure>
+          <img
+            src={img2}
+            alt="Gallery"
+            className="img-fluid"
+            onClick={() =>
+              this.setState({ photoIndex: 1, isOpen: true })
+            }
+          />
+        </figure>
+      </Col>
+      <Col md="3">
+        <figure>
+          <img
+            src={img3}
+            alt="Gallery"
+            className="img-fluid"
+            onClick={() =>
+              this.setState({ photoIndex: 2, isOpen: true })
+            }
+          />
+        </figure>
+      </Col>
+      <Col md="3">
+        <figure>
+          <img
+            src={img4}
+            alt="Gallery"
+            className="img-fluid"
+            onClick={() =>
+              this.setState({ photoIndex: 3, isOpen: true })
+            }
+          />
+        </figure>
+      </Col>
+      <Col md="3">
+        <figure>
+          <img
+            src={img5}
+            alt="Gallery"
+            className="img-fluid"
+            onClick={() =>
+              this.setState({ photoIndex: 4, isOpen: true })
+            }
+          />
+        </figure>
+      </Col>
+      <Col md="3">
+        <figure>
+          <img
+            src={img6}
+            alt="Gallery"
+            className="img-fluid"
+            onClick={() =>
+              this.setState({ photoIndex: 5, isOpen: true })
+            }
+          />
+        </figure>
+      </Col>
+      <Col md="3">
+        <figure>
+          <img
+            src={img7}
+            alt="Gallery"
+            className="img-fluid"
+            onClick={() =>
+              this.setState({ photoIndex: 6, isOpen: true })
+            }
+          />
+        </figure>
+      </Col>
+      <Col md="3">
+        <figure>
+          <img
+            src={img8}
+            alt="Gallery"
+            className="img-fluid"
+            onClick={() =>
+              this.setState({ photoIndex: 7, isOpen: true })
+            }
+          />
+        </figure>
+      </Col>
+    </Row>
+  </div>
+  {isOpen && (
+    <Lightbox
+      enableZoom={false}
+      mainSrc={images[photoIndex]}
+      nextSrc={images[(photoIndex + 1) % images.length]}
+      prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+      imageTitle={photoIndex + 1 + "/" + images.length}
+      onCloseRequest={() => this.setState({ isOpen: false })}
+      onMovePrevRequest={() =>
+        this.setState({
+          photoIndex: (photoIndex + images.length - 1) % images.length
+        })
+      }
+      onMoveNextRequest={() =>
+        this.setState({
+          photoIndex: (photoIndex + 1) % images.length
+        })
+      }
+    />
+  )}
+</Container> */
+}
