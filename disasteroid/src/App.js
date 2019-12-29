@@ -6,15 +6,15 @@ import Navbar from "./Components/Navbar/Navbar";
 import HomePage from "./Components/HomePage/HomePage";
 import DemoPage from "./Components/DemoPage/DemoPage";
 import ProcessPage from "./Components/ProcessPage/ProcessPage";
-// import GalleryPage from "./Components/GalleryPage/GalleryPage";
-// import TeamPage from "./Components/TeamPage/TeamPage";
+import GalleryPage from "./Components/GalleryPage/GalleryPage";
+import TeamPage from "./Components/TeamPage/TeamPage";
 
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <Navbar />
         <Element name="home">
           <HomePage />
@@ -24,6 +24,12 @@ class App extends Component {
         </Element>
         <Element name="process">
           <ProcessPage />
+        </Element>
+        <Element name="gallery">
+          <GalleryPage />
+        </Element>
+        <Element name="team">
+          <TeamPage />
         </Element>
       </div>
     );

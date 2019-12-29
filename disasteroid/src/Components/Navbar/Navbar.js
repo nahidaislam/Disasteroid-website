@@ -46,7 +46,7 @@ class Navbar extends Component {
                   Process
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link
                   activeClass="active"
                   to="gallery"
@@ -69,7 +69,7 @@ class Navbar extends Component {
                 >
                   Team
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
         </nav>
