@@ -1,20 +1,214 @@
 import React, { Component } from "react";
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
+// import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import {
+  Card,
+  CardMedia,
+  CardActionArea,
+  CardActions,
+  CardContent,
+  Typography,
+  Grid,
+  Divider,
+  Avatar
+} from "@material-ui/core/";
 
-import arturs from "../../Image/Team/arturs.png";
-import augustin from "../../Image/Team/augustin.png";
-import chantal from "../../Image/earth.png";
-import miki from "../../Image/Team/miki.jpg";
-import nahida from "../../Image/Team/nahida.jpg";
-import tingyi from "../../Image/Team/tingyi.png";
+import arturs from "../../Image/Team/arturs.JPG";
+import augustin from "../../Image/Team/augustin.JPG";
+import chantal from "../../Image/Team/chantal.JPG";
+import miki from "../../Image/Team/miki.JPG";
+import nahida from "../../Image/Team/nahida.JPG";
+import tingyi from "../../Image/Team/tingyi.JPG";
 
 import "./TeamPage.css";
+
+const styles = muiBaseTheme => ({
+  media: {
+    paddingTop: "56.25%"
+  },
+  content: {
+    textAlign: "left",
+    padding: muiBaseTheme.spacing.unit * 3
+  },
+  divider: {
+    margin: `${muiBaseTheme.spacing.unit * 3}px 0`
+  },
+  heading: {
+    fontWeight: "bold"
+  },
+  subheading: {
+    lineHeight: 1.8
+  }
+});
 
 class TeamPage extends Component {
   render() {
     return (
       <div className="team-section" id="team">
-        <Container>
+        <Grid container direction="row" justify="center" alignItems="center">
+          <Grid container item xs={4} spacing={2}>
+            <Card className="cards">
+              <img
+                src={arturs}
+                alt="profile-pricture"
+                className="profile-img"
+              />
+              <CardContent className={styles.content}>
+                <Typography
+                  className={"MuiTypography--heading"}
+                  variant={"h6"}
+                  gutterBottom
+                >
+                  Arturs Kurzemnieks
+                </Typography>
+                <Divider className={styles.divider} light />
+                <Typography
+                  className={"MuiTypography--subheading"}
+                  variant={"caption"}
+                >
+                  Technical lead for the project. Implemented the networking and
+                  synchronization of all objects and events in the game to
+                  ensure a consistent multiplayer experience, as well as parts
+                  of the user interactions, including satellite spawning and
+                  bomb mechanics.
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid container item xs={4} spacing={2}>
+            <Card className="cards">
+              <img
+                src={augustin}
+                alt="profile-pricture"
+                className="profile-img"
+              />
+              <CardContent className={styles.content}>
+                <Typography
+                  className={"MuiTypography--heading"}
+                  variant={"h6"}
+                  gutterBottom
+                >
+                  Augustin Bariant
+                </Typography>
+                <Divider className={styles.divider} light />
+                <Typography
+                  className={"MuiTypography--subheading"}
+                  variant={"caption"}
+                >
+                  We are going to learn different kinds of species in nature
+                  that live together to form amazing environment.
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid container item xs={4} spacing={2}>
+            <Card className="cards">
+              <img
+                src={chantal}
+                alt="profile-pricture"
+                className="profile-img"
+              />
+              <CardContent className={styles.content}>
+                <Typography
+                  className={"MuiTypography--heading"}
+                  variant={"h6"}
+                  gutterBottom
+                >
+                  Chantal Hundscheid
+                </Typography>
+                <Divider className={styles.divider} light />
+                <Typography
+                  className={"MuiTypography--subheading"}
+                  variant={"caption"}
+                >
+                  We are going to learn different kinds of species in nature
+                  that live together to form amazing environment.
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid container item xs={4} spacing={2}>
+            <Card className="cards">
+              <img src={miki} alt="profile-pricture" className="profile-img" />
+              <CardContent className={styles.content}>
+                <Typography
+                  className={"MuiTypography--heading"}
+                  variant={"h6"}
+                  gutterBottom
+                >
+                  Miguel Alvarez Bordils
+                </Typography>
+                <Divider className={styles.divider} light />
+                <Typography
+                  className={"MuiTypography--subheading"}
+                  variant={"caption"}
+                >
+                  A satellite with a gun on top of it was 3D printed to
+                  represent the special weapon. A image was attached to it in
+                  order to be able to track the satellite on the AR scene.
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid container item xs={4} spacing={2}>
+            <Card className="cards">
+              <img
+                src={nahida}
+                alt="profile-pricture"
+                className="profile-img"
+              />
+              <CardContent className={styles.content}>
+                <Typography
+                  className={"MuiTypography--heading"}
+                  variant={"h6"}
+                  gutterBottom
+                >
+                  Nahida Islam
+                </Typography>
+                <Divider className={styles.divider} light />
+                <Typography
+                  className={"MuiTypography--subheading"}
+                  variant={"caption"}
+                >
+                  We are going to learn different kinds of species in nature
+                  that live together to form amazing environment.
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid container item xs={4} spacing={2}>
+            <Card className="cards">
+              <img
+                src={tingyi}
+                alt="profile-pricture"
+                className="profile-img"
+              />
+              <CardContent className={styles.content}>
+                <Typography
+                  className={"MuiTypography--heading"}
+                  variant={"h6"}
+                  gutterBottom
+                >
+                  Tingyi Li
+                </Typography>
+                <Divider className={styles.divider} light />
+                <Typography
+                  className={"MuiTypography--subheading"}
+                  variant={"caption"}
+                >
+                  We are going to learn different kinds of species in nature
+                  that live together to form amazing environment.
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
+      </div>
+    );
+  }
+}
+export default TeamPage;
+{
+  /* <Container>
           <Row className=" justify-content-between p-3">
             <Col md={4} sm={12}>
               <Card style={{ width: "24rem" }}>
@@ -25,7 +219,6 @@ class TeamPage extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </Col>
@@ -42,7 +235,6 @@ class TeamPage extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </Col>
@@ -55,7 +247,6 @@ class TeamPage extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </Col>
@@ -70,7 +261,6 @@ class TeamPage extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </Col>
@@ -83,7 +273,6 @@ class TeamPage extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </Col>
@@ -96,14 +285,9 @@ class TeamPage extends Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </Col>
           </Row>
-        </Container>
-      </div>
-    );
-  }
+        </Container> */
 }
-export default TeamPage;
