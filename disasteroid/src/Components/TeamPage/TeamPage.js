@@ -61,8 +61,6 @@ class TeamPage extends Component {
                   gutterBottom
                 >
                   Arturs Kurzemnieks
-                  <FaEnvelope />
-                  <FaLinkedin />
                 </Typography>
                 <Divider className={styles.divider} light />
                 <Typography
@@ -75,6 +73,9 @@ class TeamPage extends Component {
                   of the user interactions, including satellite spawning and
                   bomb mechanics.
                 </Typography>
+
+                <FaEnvelope size={25} />
+                <FaLinkedin size={25} />
               </CardContent>
             </Card>
           </Grid>

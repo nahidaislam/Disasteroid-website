@@ -15,7 +15,6 @@ class Navbar extends Component {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={0}
                 duration={500}
               >
                 Home
@@ -27,7 +26,6 @@ class Navbar extends Component {
                 to="demo"
                 spy={true}
                 smooth={true}
-                offset={0}
                 duration={500}
               >
                 Demo
@@ -39,7 +37,6 @@ class Navbar extends Component {
                 to="process"
                 spy={true}
                 smooth={true}
-                offset={0}
                 duration={500}
               >
                 Process
@@ -51,7 +48,6 @@ class Navbar extends Component {
                 to="gallery"
                 spy={true}
                 smooth={true}
-                offset={0}
                 duration={500}
               >
                 Gallery
@@ -63,7 +59,6 @@ class Navbar extends Component {
                 to="team"
                 spy={true}
                 smooth={true}
-                offset={0}
                 duration={500}
               >
                 Team
