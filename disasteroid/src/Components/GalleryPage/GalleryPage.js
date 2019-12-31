@@ -1,6 +1,6 @@
 import React from "react";
 import Lightbox from "react-image-lightbox";
-// import { Card, Button, Container, Row, Col } from "react-bootstrap";
+
 import { Grid } from "@material-ui/core/";
 import "./GalleryPage.css";
 
@@ -21,12 +21,13 @@ class GalleryPage extends React.Component {
 
     this.state = {
       photoIndex: 0,
-      isOpen: false
+      isOpen: false,
+      caption: null
     };
   }
 
   render() {
-    const { photoIndex, isOpen } = this.state;
+    const { photoIndex, isOpen, caption } = this.state;
     return (
       <div className="gallery-section" id="gallery">
         <div className="mdb-lightbox">
@@ -35,9 +36,16 @@ class GalleryPage extends React.Component {
               <figure className="frame">
                 <img
                   src={img1}
-                  alt="Gallery"
+                  alt="Working day"
                   className="img-fluid"
-                  onClick={() => this.setState({ photoIndex: 0, isOpen: true })}
+                  onClick={() =>
+                    this.setState({
+                      photoIndex: 0,
+                      isOpen: true,
+                      caption:
+                        "A regular work day, Photo: Nahida Islam, license: CC0"
+                    })
+                  }
                 />
               </figure>
             </Grid>
@@ -45,9 +53,16 @@ class GalleryPage extends React.Component {
               <figure className="frame">
                 <img
                   src={img2}
-                  alt="Gallery"
+                  alt="Pizza break"
                   className="img-fluid"
-                  onClick={() => this.setState({ photoIndex: 1, isOpen: true })}
+                  onClick={() =>
+                    this.setState({
+                      photoIndex: 1,
+                      isOpen: true,
+                      caption:
+                        "A pizza break was needed, Photo: Nahida Islam, license: CC0"
+                    })
+                  }
                 />
               </figure>
             </Grid>
@@ -55,9 +70,16 @@ class GalleryPage extends React.Component {
               <figure className="frame">
                 <img
                   src={img3}
-                  alt="Gallery"
+                  alt="The satellite"
                   className="img-fluid"
-                  onClick={() => this.setState({ photoIndex: 2, isOpen: true })}
+                  onClick={() =>
+                    this.setState({
+                      photoIndex: 2,
+                      isOpen: true,
+                      caption:
+                        "The special weapon: Satellite, Photo: Nahida Islam, license: CC0"
+                    })
+                  }
                 />
               </figure>
             </Grid>
@@ -65,9 +87,16 @@ class GalleryPage extends React.Component {
               <figure className="frame">
                 <img
                   src={img4}
-                  alt="Gallery"
+                  alt="scanning satellite"
                   className="img-fluid"
-                  onClick={() => this.setState({ photoIndex: 3, isOpen: true })}
+                  onClick={() =>
+                    this.setState({
+                      photoIndex: 3,
+                      isOpen: true,
+                      caption:
+                        "Scan the satellite, Photo: Nahida Islam, license: CC0"
+                    })
+                  }
                 />
               </figure>
             </Grid>
@@ -75,9 +104,16 @@ class GalleryPage extends React.Component {
               <figure className="frame">
                 <img
                   src={img5}
-                  alt="Gallery"
+                  alt="Satellite appear"
                   className="img-fluid"
-                  onClick={() => this.setState({ photoIndex: 4, isOpen: true })}
+                  onClick={() =>
+                    this.setState({
+                      photoIndex: 4,
+                      isOpen: true,
+                      caption:
+                        "Satellite appeared in the scene, Photo: Nahida Islam, license: CC0"
+                    })
+                  }
                 />
               </figure>
             </Grid>
@@ -85,9 +121,16 @@ class GalleryPage extends React.Component {
               <figure className="frame">
                 <img
                   src={img6}
-                  alt="Gallery"
+                  alt="Asteroid"
                   className="img-fluid"
-                  onClick={() => this.setState({ photoIndex: 5, isOpen: true })}
+                  onClick={() =>
+                    this.setState({
+                      photoIndex: 5,
+                      isOpen: true,
+                      caption:
+                        "An asteroid and it's predicted path, Photo: Nahida Islam, license: CC0"
+                    })
+                  }
                 />
               </figure>
             </Grid>
@@ -95,9 +138,16 @@ class GalleryPage extends React.Component {
               <figure className="frame">
                 <img
                   src={img7}
-                  alt="Gallery"
+                  alt="Launch bomb"
                   className="img-fluid"
-                  onClick={() => this.setState({ photoIndex: 6, isOpen: true })}
+                  onClick={() =>
+                    this.setState({
+                      photoIndex: 6,
+                      isOpen: true,
+                      caption:
+                        "A bomb is launched, Photo: Nahida Islam, license: CC0"
+                    })
+                  }
                 />
               </figure>
             </Grid>
@@ -105,9 +155,16 @@ class GalleryPage extends React.Component {
               <figure className="frame">
                 <img
                   src={img8}
-                  alt="Gallery"
+                  alt="Amazed"
                   className="img-fluid"
-                  onClick={() => this.setState({ photoIndex: 7, isOpen: true })}
+                  onClick={() =>
+                    this.setState({
+                      photoIndex: 7,
+                      isOpen: true,
+                      caption:
+                        "Participants during open house, Photo: Nahida Islam, license: CC0"
+                    })
+                  }
                 />
               </figure>
             </Grid>
@@ -120,6 +177,7 @@ class GalleryPage extends React.Component {
             nextSrc={images[(photoIndex + 1) % images.length]}
             prevSrc={images[(photoIndex + images.length - 1) % images.length]}
             imageTitle={photoIndex + 1 + "/" + images.length}
+            imageCaption={caption}
             onCloseRequest={() => this.setState({ isOpen: false })}
             onMovePrevRequest={() =>
               this.setState({
@@ -139,128 +197,3 @@ class GalleryPage extends React.Component {
 }
 
 export default GalleryPage;
-
-{
-  /* <Container>
-  <div className="mdb-lightbox no-margin">
-    <Row>
-      <Col md="3">
-        <figure>
-          <img
-            src={img1}
-            alt="Gallery"
-            className="img-fluid"
-            onClick={() =>
-              this.setState({ photoIndex: 0, isOpen: true })
-            }
-          />
-        </figure>
-      </Col>
-      <Col md="3">
-        <figure>
-          <img
-            src={img2}
-            alt="Gallery"
-            className="img-fluid"
-            onClick={() =>
-              this.setState({ photoIndex: 1, isOpen: true })
-            }
-          />
-        </figure>
-      </Col>
-      <Col md="3">
-        <figure>
-          <img
-            src={img3}
-            alt="Gallery"
-            className="img-fluid"
-            onClick={() =>
-              this.setState({ photoIndex: 2, isOpen: true })
-            }
-          />
-        </figure>
-      </Col>
-      <Col md="3">
-        <figure>
-          <img
-            src={img4}
-            alt="Gallery"
-            className="img-fluid"
-            onClick={() =>
-              this.setState({ photoIndex: 3, isOpen: true })
-            }
-          />
-        </figure>
-      </Col>
-      <Col md="3">
-        <figure>
-          <img
-            src={img5}
-            alt="Gallery"
-            className="img-fluid"
-            onClick={() =>
-              this.setState({ photoIndex: 4, isOpen: true })
-            }
-          />
-        </figure>
-      </Col>
-      <Col md="3">
-        <figure>
-          <img
-            src={img6}
-            alt="Gallery"
-            className="img-fluid"
-            onClick={() =>
-              this.setState({ photoIndex: 5, isOpen: true })
-            }
-          />
-        </figure>
-      </Col>
-      <Col md="3">
-        <figure>
-          <img
-            src={img7}
-            alt="Gallery"
-            className="img-fluid"
-            onClick={() =>
-              this.setState({ photoIndex: 6, isOpen: true })
-            }
-          />
-        </figure>
-      </Col>
-      <Col md="3">
-        <figure>
-          <img
-            src={img8}
-            alt="Gallery"
-            className="img-fluid"
-            onClick={() =>
-              this.setState({ photoIndex: 7, isOpen: true })
-            }
-          />
-        </figure>
-      </Col>
-    </Row>
-  </div>
-  {isOpen && (
-    <Lightbox
-      enableZoom={false}
-      mainSrc={images[photoIndex]}
-      nextSrc={images[(photoIndex + 1) % images.length]}
-      prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-      imageTitle={photoIndex + 1 + "/" + images.length}
-      onCloseRequest={() => this.setState({ isOpen: false })}
-      onMovePrevRequest={() =>
-        this.setState({
-          photoIndex: (photoIndex + images.length - 1) % images.length
-        })
-      }
-      onMoveNextRequest={() =>
-        this.setState({
-          photoIndex: (photoIndex + 1) % images.length
-        })
-      }
-    />
-  )}
-</Container> */
-}

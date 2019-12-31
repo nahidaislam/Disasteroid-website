@@ -51,7 +51,7 @@ class TeamPage extends Component {
           alignContent="center"
         >
           <Grid item>
-            <Card className="card">
+            <Card className="team-card">
               <img
                 src={arturs}
                 alt="profile-pricture"
@@ -80,7 +80,7 @@ class TeamPage extends Component {
             </Card>
           </Grid>
           <Grid item>
-            <Card className="card">
+            <Card className="team-card">
               <img
                 src={augustin}
                 alt="profile-pricture"
@@ -106,7 +106,7 @@ class TeamPage extends Component {
             </Card>
           </Grid>
           <Grid item>
-            <Card className="card">
+            <Card className="team-card">
               <img
                 src={chantal}
                 alt="profile-pricture"
@@ -132,7 +132,7 @@ class TeamPage extends Component {
             </Card>
           </Grid>
           <Grid item>
-            <Card className="card">
+            <Card className="team-card">
               <img src={miki} alt="profile-pricture" className="profile-img" />
               <CardContent className={styles.content}>
                 <Typography
@@ -155,7 +155,7 @@ class TeamPage extends Component {
             </Card>
           </Grid>
           <Grid item>
-            <Card className="card">
+            <Card className="team-card">
               <img
                 src={nahida}
                 alt="profile-pricture"
@@ -181,7 +181,7 @@ class TeamPage extends Component {
             </Card>
           </Grid>
           <Grid item>
-            <Card className="card">
+            <Card className="team-card">
               <img
                 src={tingyi}
                 alt="profile-pricture"
