@@ -1,15 +1,12 @@
 import React, { Component } from "react";
-// import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import { FaEnvelope, FaLinkedin } from "react-icons/fa";
+
 import {
   Card,
-  CardMedia,
-  CardActionArea,
-  CardActions,
   CardContent,
   Typography,
   Grid,
-  Divider,
-  Avatar
+  Divider
 } from "@material-ui/core/";
 
 import arturs from "../../Image/Team/arturs.JPG";
@@ -64,6 +61,8 @@ class TeamPage extends Component {
                   gutterBottom
                 >
                   Arturs Kurzemnieks
+                  <FaEnvelope />
+                  <FaLinkedin />
                 </Typography>
                 <Divider className={styles.divider} light />
                 <Typography
