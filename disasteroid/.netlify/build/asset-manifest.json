@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71562722.chunk.css",
+    "main.js": "/static/js/main.98a6d0a0.chunk.js",
+    "main.js.map": "/static/js/main.98a6d0a0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.16d05c55.js",
+    "runtime-main.js.map": "/static/js/runtime-main.16d05c55.js.map",
+    "static/css/2.64a99b10.chunk.css": "/static/css/2.64a99b10.chunk.css",
+    "static/js/2.dbd317bc.chunk.js": "/static/js/2.dbd317bc.chunk.js",
+    "static/js/2.dbd317bc.chunk.js.map": "/static/js/2.dbd317bc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2397d69eb490320a3b900d1921ff24be.js": "/precache-manifest.2397d69eb490320a3b900d1921ff24be.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.71562722.chunk.css.map": "/static/css/main.71562722.chunk.css.map",
+    "static/media/ARCore.jpg": "/static/media/ARCore.b214afae.jpg",
+    "static/media/arturs.JPG": "/static/media/arturs.7ae9d306.JPG",
+    "static/media/augustin.JPG": "/static/media/augustin.624cf337.JPG",
+    "static/media/blender.jpg": "/static/media/blender.03ffca35.jpg",
+    "static/media/chantal.JPG": "/static/media/chantal.2aa9cc14.JPG",
+    "static/media/earth.png": "/static/media/earth.0097a676.png",
+    "static/media/image1.jpg": "/static/media/image1.009b7526.jpg",
+    "static/media/image2.jpg": "/static/media/image2.72f91517.jpg",
+    "static/media/image3.jpg": "/static/media/image3.b20e65d3.jpg",
+    "static/media/image4.jpg": "/static/media/image4.b7d6e3c6.jpg",
+    "static/media/image5.jpg": "/static/media/image5.55c4f839.jpg",
+    "static/media/image6.JPG": "/static/media/image6.da1c6454.JPG",
+    "static/media/image7.JPG": "/static/media/image7.0b57d76f.JPG",
+    "static/media/image8.JPG": "/static/media/image8.c3af70aa.JPG",
+    "static/media/miki.jpg": "/static/media/miki.2e23d59f.jpg",
+    "static/media/nahida.jpg": "/static/media/nahida.e8ff9dbf.jpg",
+    "static/media/tingyi.JPG": "/static/media/tingyi.1165b5a5.JPG",
+    "static/media/unity.png": "/static/media/unity.437ebf4d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16d05c55.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.dbd317bc.chunk.js",
+    "static/css/main.71562722.chunk.css",
+    "static/js/main.98a6d0a0.chunk.js"
+  ]
+}
