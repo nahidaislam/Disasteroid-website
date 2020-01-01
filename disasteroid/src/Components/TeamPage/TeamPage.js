@@ -11,8 +11,8 @@ import {
 import arturs from "../../Image/Team/arturs.JPG";
 import augustin from "../../Image/Team/augustin.JPG";
 import chantal from "../../Image/Team/chantal.JPG";
-import miki from "../../Image/Team/miki.JPG";
-import nahida from "../../Image/Team/nahida.JPG";
+import miki from "../../Image/Team/miki.jpg";
+import nahida from "../../Image/Team/nahida.jpg";
 import tingyi from "../../Image/Team/tingyi.JPG";
 
 import "./TeamPage.css";
