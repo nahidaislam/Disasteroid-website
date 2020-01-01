@@ -42,7 +42,7 @@ class GalleryPage extends Component {
       <div className="gallery-section" id="gallery">
         <Grid
           container
-          direction="rows"
+          direction="row"
           justify="space-around"
           alignContent="center"
         >

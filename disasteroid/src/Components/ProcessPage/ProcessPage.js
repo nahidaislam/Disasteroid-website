@@ -38,7 +38,7 @@ class ProcessPage extends Component {
       <div className="process-section" id="process">
         <Grid
           container
-          direction="rows"
+          direction="row"
           justify="space-around"
           alignContent="center"
         >

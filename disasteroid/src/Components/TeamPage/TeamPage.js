@@ -42,7 +42,7 @@ class TeamPage extends Component {
       <div className="team-section" id="team">
         <Grid
           container
-          direction="rows"
+          direction="row"
           justify="space-around"
           alignContent="center"
         >

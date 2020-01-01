@@ -28,7 +28,7 @@ class HomePage extends Component {
         />
 
         <p id="sub-title">A collaborative AR game, aiming to save the world.</p>
-        <ul class="actions git-button">
+        <ul className="actions git-button">
           <a
             href="https://github.com/arquLV/Disasteroid"
             target="_blank"
