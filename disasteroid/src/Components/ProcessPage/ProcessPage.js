@@ -61,10 +61,10 @@ class ProcessPage extends Component {
                   The goal of Disasteroid is to make fun dark humor themed
                   collaborative AR game. The game involves the player to save
                   the earth from asteroids using missiles and a special weapon.
-                  However, creating the missiles and the special weapon involves
-                  using resources from the earth. The player, therefore, has to
-                  deal with the dilemma of whether or not they are actually
-                  saving the earth.
+                  Creating missiles and the special weapon involves using
+                  resources from the earth. The player, therefore, has to deal
+                  with the dilemma of whether or not they are actually saving
+                  the earth.
                 </Typography>
               </CardContent>
             </Card>
@@ -110,8 +110,16 @@ class ProcessPage extends Component {
                   variant={"caption"}
                   color={"inherit"}
                 >
-                  The game can be played on android mobiles (Android 7.0 or
-                  later). ADD ABOUT THE NETWORKING.
+                  The game is supported on Android 7.0 'Nougat' (API Level 24)
+                  or higher. The game is meant to be played by multiple people
+                  working as a team. An image based marker as a single source of
+                  truth for all players was used to avoid any pre-mapping of the
+                  playing environment before every game session. Using Photon
+                  networking package for Unity with smart compensation for any
+                  lag in the network, smooth and synchronized asteroid motion,
+                  impacts and player interactions are achieved, allowing for a
+                  truly immersive real-time multiplayer experience in AR on a
+                  whole room scale.
                 </Typography>
               </CardContent>
             </Card>
@@ -178,8 +186,13 @@ class ProcessPage extends Component {
                   variant={"caption"}
                   color={"inherit"}
                 >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
+                  One of the main challenges was the multiplayer mechanics.
+                  Because of the nature of the game the AR scene has to be
+                  consistent from the players' viewpoint. While most of the
+                  physics simulations are run locally on each phone , a
+                  centralized master node is employed, processing game events
+                  and providing authoritative positioning data to all the
+                  clients for correction of any possible discrepancies.
                 </Typography>
               </CardContent>
             </Card>

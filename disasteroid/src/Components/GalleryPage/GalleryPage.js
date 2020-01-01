@@ -14,6 +14,16 @@ import img7 from "../../Image/Process/image7.JPG";
 import img8 from "../../Image/Process/image8.JPG";
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+const captions = [
+  "A regular work day, Photo: Nahida Islam, license: CC0",
+  "A pizza break was needed, Photo: Nahida Islam, license: CC0",
+  "The special weapon: Satellite, Photo: Nahida Islam, license: CC0",
+  "Scan the satellite, Photo: Nahida Islam, license: CC0",
+  "Satellite appeared in the scene, Photo: Nahida Islam, license: CC0",
+  "An asteroid and it's predicted path, Photo: Nahida Islam, license: CC0",
+  "A bomb is launched, Photo: Nahida Islam, license: CC0",
+  "Participants during open house, Photo: Nahida Islam, license: CC0"
+];
 
 class GalleryPage extends React.Component {
   constructor(props) {
@@ -177,7 +187,8 @@ class GalleryPage extends React.Component {
             nextSrc={images[(photoIndex + 1) % images.length]}
             prevSrc={images[(photoIndex + images.length - 1) % images.length]}
             imageTitle={photoIndex + 1 + "/" + images.length}
-            imageCaption={caption}
+            // imageCaption={caption}
+            imageCaption={captions[photoIndex]}
             onCloseRequest={() => this.setState({ isOpen: false })}
             onMovePrevRequest={() =>
               this.setState({

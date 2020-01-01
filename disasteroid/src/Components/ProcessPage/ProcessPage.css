@@ -1,5 +1,4 @@
 .process-section {
-  height: 100vh;
   background-image: linear-gradient(#0b1e39, #270730);
   padding-top: 60px;
 }
@@ -8,8 +7,9 @@
   width: 25rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin: 10px;
 }
+
 .techno-img {
   margin-top: 3rem;
   width: 7rem;

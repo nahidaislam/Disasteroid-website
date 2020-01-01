@@ -11,7 +11,7 @@
 .frame {
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid green;
+  border: 3px solid white;
 }
 
 @-webkit-keyframes closeWindow {
