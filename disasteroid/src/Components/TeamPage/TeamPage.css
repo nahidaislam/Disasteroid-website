@@ -9,9 +9,15 @@
   border-radius: 50%;
 }
 .team-card {
-  height: 22rem;
+  height: 23rem;
   width: 25rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+}
+.content {
+  margin-top: 1rem;
+}
+a:link {
+  text-decoration: none;
 }

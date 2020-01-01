@@ -71,11 +71,20 @@ class TeamPage extends Component {
                   synchronization of all objects and events in the game to
                   ensure a consistent multiplayer experience, as well as parts
                   of the user interactions, including satellite spawning and
-                  bomb mechanics.
+                  missile mechanics.
                 </Typography>
-
-                <FaEnvelope size={25} />
-                <FaLinkedin size={25} />
+                <div className="content">
+                  <a href="mailto:artursk@kth.se">
+                    <FaEnvelope size={25} />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/arturs-kurzemnieks/"
+                    target="_blank"
+                  >
+                    {" "}
+                    <FaLinkedin size={25} />
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </Grid>
@@ -102,6 +111,18 @@ class TeamPage extends Component {
                   We are going to learn different kinds of species in nature
                   that live together to form amazing environment.
                 </Typography>
+                <div className="content">
+                  <a href="mailto:bariant@kth.se">
+                    <FaEnvelope size={25} />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/augustin-bariant-2b0986172/"
+                    target="_blank"
+                  >
+                    {" "}
+                    <FaLinkedin size={25} />
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </Grid>
@@ -128,6 +149,18 @@ class TeamPage extends Component {
                   We are going to learn different kinds of species in nature
                   that live together to form amazing environment.
                 </Typography>
+                <div className="content">
+                  <a href="mailto:chantalh@kth.se">
+                    <FaEnvelope size={25} />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/chantal-hundscheid/"
+                    target="_blank"
+                  >
+                    {" "}
+                    <FaLinkedin size={25} />
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </Grid>
@@ -147,10 +180,21 @@ class TeamPage extends Component {
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
                 >
-                  A satellite with a gun on top of it was 3D printed to
-                  represent the special weapon. A image was attached to it in
-                  order to be able to track the satellite on the AR scene.
+                  We are going to learn different kinds of species in nature
+                  that live together to form amazing environment.
                 </Typography>
+                <div className="content">
+                  <a href="mailto:migab@kth.se">
+                    <FaEnvelope size={25} />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/miguelalvarezbordils/"
+                    target="_blank"
+                  >
+                    {" "}
+                    <FaLinkedin size={25} />
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </Grid>
@@ -174,9 +218,24 @@ class TeamPage extends Component {
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
                 >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
+                  Graphics lead for the project. Designed the low poly earth,
+                  missile, and the satellite using Blender. She was responsible
+                  for the 3D printing and decorating of the special weapon,
+                  satellite. She was also the project leader and responsible for
+                  this website.
                 </Typography>
+                <div className="content">
+                  <a href="mailto:nahida_1994@hotmail.com">
+                    <FaEnvelope size={25} />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/nahida-islam/"
+                    target="_blank"
+                  >
+                    {" "}
+                    <FaLinkedin size={25} />
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </Grid>
@@ -203,6 +262,18 @@ class TeamPage extends Component {
                   We are going to learn different kinds of species in nature
                   that live together to form amazing environment.
                 </Typography>
+                <div className="content">
+                  <a href="mailto:tingyi@kth.se">
+                    <FaEnvelope size={25} />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/tingyi-li-3b408616a/"
+                    target="_blank"
+                  >
+                    {" "}
+                    <FaLinkedin size={25} />
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </Grid>
@@ -212,87 +283,3 @@ class TeamPage extends Component {
   }
 }
 export default TeamPage;
-{
-  /* <Container>
-          <Row className=" justify-content-between p-3">
-            <Col md={4} sm={12}>
-              <Card style={{ width: "24rem" }}>
-                <Card.Img className="profile-img" variant="top" src={arturs} />
-                <Card.Body>
-                  <Card.Title>Arturs Kurzemnieks</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4} sm={12}>
-              <Card style={{ width: "24rem" }}>
-                <Card.Img
-                  className="profile-img"
-                  variant="top"
-                  src={augustin}
-                />
-                <Card.Body>
-                  <Card.Title>Augustin Bariant</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4} sm={12}>
-              <Card style={{ width: "24rem" }}>
-                <Card.Img className="profile-img" variant="top" src={chantal} />
-                <Card.Body>
-                  <Card.Title>Chantal Hundscheid</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row className=" justify-content-between p-3">
-            <Col md={4} sm={12}>
-              <Card style={{ width: "24rem" }}>
-                <Card.Img className="profile-img" variant="top" src={miki} />
-                <Card.Body>
-                  <Card.Title>Miguel Alvarez Bordils</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4} sm={12}>
-              <Card style={{ width: "24rem" }}>
-                <Card.Img className="profile-img" variant="top" src={nahida} />
-                <Card.Body>
-                  <Card.Title>Nahida Islam</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4} sm={12}>
-              <Card style={{ width: "24rem" }}>
-                <Card.Img className="profile-img" variant="top" src={tingyi} />
-                <Card.Body>
-                  <Card.Title>Tingyi Li</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container> */
-}
