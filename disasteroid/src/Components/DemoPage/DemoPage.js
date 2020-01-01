@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
+import { Typography } from "@material-ui/core/";
 
-import {
-  Card,
-  CardContent,
-  Typography,
-  Grid,
-  Divider
-} from "@material-ui/core/";
 import "./DemoPage.css";
 
 class DemoPage extends Component {

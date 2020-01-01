@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Typical from "react-typical";
 
 import earth from "../../Image/earth.png";
+
 import "./HomePage.css";
 
 var sectionStyle = {
