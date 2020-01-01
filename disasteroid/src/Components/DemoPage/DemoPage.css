@@ -2,5 +2,16 @@
   height: 100vh;
   /* background-color: #270732; */
   background-image: linear-gradient(#270730, #0b1e39);
-  padding-top: 80px;
+}
+
+.vid-container iframe {
+  padding-right: 60px;
+}
+
+.demo-text {
+  font-family: "Courier New", Courier, monospace;
+  float: left;
+  color: white;
+  margin-top: 20rem;
+  margin-left: 5rem;
 }

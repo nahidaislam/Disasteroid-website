@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { FaEnvelope, FaLinkedin } from "react-icons/fa";
-
 import {
   Card,
   CardContent,
