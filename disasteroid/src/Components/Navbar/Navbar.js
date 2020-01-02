@@ -6,7 +6,7 @@ import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navigation" id="navbar">
+      <div className="navigation" id="navbar">
         <div className="nav-content">
           <ul className=" nav-items">
             <li className="nav-item">
@@ -66,7 +66,7 @@ class Navbar extends Component {
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
     );
   }
 }

@@ -9,16 +9,22 @@
   border-radius: 50%;
 }
 .team-card {
-  height: 23rem;
-  width: 25rem;
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-bottom: 10px;
+  margin: 10px;
 }
+
 .content {
   margin-top: 1rem;
 }
 a:link {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .team-card {
+    height: 23rem;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
 }

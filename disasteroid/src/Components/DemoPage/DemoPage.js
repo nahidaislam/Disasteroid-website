@@ -22,6 +22,8 @@ class DemoPage extends Component {
             allow="autoplay; fullscreen"
             allowFullScreen
             align="right"
+            width="50%"
+            height="50%"
           ></iframe>
         </div>
       </div>

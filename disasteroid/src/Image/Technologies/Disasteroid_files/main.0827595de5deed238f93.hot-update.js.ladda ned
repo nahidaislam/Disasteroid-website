@@ -1,0 +1,19 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Navbar/Navbar.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/Navbar/Navbar.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".navigation {\r\n  position: fixed;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 50px;\r\n  z-index: 1000;\r\n  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);\r\n}\r\n.nav-content ul {\r\n  font-family: \"Times New Roman\", Times, serif;\r\n  letter-spacing: 2px;\r\n  color: white;\r\n  cursor: pointer;\r\n  list-style: none;\r\n  text-align: right;\r\n  padding-top: 10px;\r\n}\r\n\r\n.nav-content ul li {\r\n  display: inline;\r\n}\r\n.nav-items {\r\n  padding-right: 50px;\r\n}\r\n\r\n.nav-item:hover {\r\n  cursor: pointer;\r\n}\r\n.nav-item > .active {\r\n  border-bottom: 5px solid #888888;\r\n}\r\n\r\n@media only screen and (max-width: 300px) {\r\n  .nav-content ul {\r\n    font-family: \"Times New Roman\", Times, serif;\r\n    letter-spacing: 0px;\r\n    color: white;\r\n    cursor: pointer;\r\n    list-style: none;\r\n    text-align: right;\r\n  }\r\n}\r\n", ""]);
+
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.0827595de5deed238f93.hot-update.js.map

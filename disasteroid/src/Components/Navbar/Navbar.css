@@ -30,3 +30,14 @@
 .nav-item > .active {
   border-bottom: 5px solid #888888;
 }
+
+@media only screen and (max-width: 300px) {
+  .nav-content ul {
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 0px;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+    text-align: right;
+  }
+}

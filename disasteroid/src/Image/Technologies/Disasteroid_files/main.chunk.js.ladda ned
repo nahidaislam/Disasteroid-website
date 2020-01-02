@@ -1,0 +1,2777 @@
+(this["webpackJsonpdisasteroid"] = this["webpackJsonpdisasteroid"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".App {\r\n  text-align: center;\r\n}\r\n\r\n/* .App-logo {\r\n  height: 40vmin;\r\n}\r\n\r\n.App-header {\r\n  background-color: #282c34;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: calc(10px + 2vmin);\r\n  color: white;\r\n}\r\n\r\n.App-link {\r\n  color: #09d3ac;\r\n} */\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/DemoPage/DemoPage.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/DemoPage/DemoPage.css ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".demo-section {\r\n  height: 100vh;\r\n  background-image: linear-gradient(#270730, #0b1e39);\r\n}\r\n/* .vid-container {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 0;\r\n  padding-bottom: 56.25%;\r\n}\r\n.vid-container iframe {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 50px;\r\n  width: 800px;\r\n  height: 800px;\r\n  float: right;\r\n} */\r\n.vid-container {\r\n  position: relative;\r\n\r\n  padding-bottom: 56.25%;\r\n  height: 0;\r\n}\r\n.vid-container iframe {\r\n  position: absolute;\r\n  top: 11rem;\r\n  right: 3rem;\r\n}\r\n\r\n.demo-text {\r\n  font-family: \"Courier New\", Courier, monospace;\r\n  float: left;\r\n  color: white;\r\n  margin-top: 20rem;\r\n  margin-left: 5rem;\r\n}\r\n/* @media only screen and (max-width: 300px) {\r\n  .vid-container {\r\n    position: relative;\r\n    width: 100%;\r\n    padding-bottom: 56.25%;\r\n    height: 0;\r\n    margin-right: 2rem;\r\n  }\r\n  .vid-container iframe {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 50%;\r\n    height: 50%;\r\n  }\r\n} */\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Footer/Footer.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/Footer/Footer.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".footer {\r\n  width: 100%;\r\n  height: 30px;\r\n  font-family: \"Times New Roman\", Times, serif;\r\n}\r\n.left {\r\n  float: left;\r\n  margin-left: 10px;\r\n}\r\n.right {\r\n  float: right;\r\n  margin-right: 10px;\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/GalleryPage/GalleryPage.css":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/GalleryPage/GalleryPage.css ***!
+  \*******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".gallery-section {\r\n  background-image: linear-gradient(#270730, #0b1e39);\r\n  padding-top: 80px;\r\n}\r\n\r\n.img-fluid {\r\n  height: 19rem;\r\n  width: 19rem;\r\n}\r\n.frame {\r\n  border: 3px solid white;\r\n}\r\n\r\n@keyframes closeWindow {\r\n  0% {\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n.ril__outer {\r\n  background-color: rgba(0, 0, 0, 0.85);\r\n  outline: none;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  z-index: 1000;\r\n  width: 100%;\r\n  height: 100%;\r\n  -ms-content-zooming: none;\r\n  -ms-user-select: none;\r\n  -ms-touch-select: none;\r\n  touch-action: none;\r\n}\r\n\r\n.ril__outerClosing {\r\n  opacity: 0;\r\n}\r\n\r\n.ril__inner {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n}\r\n\r\n.ril__image,\r\n.ril__imagePrev,\r\n.ril__imageNext {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  margin: auto;\r\n  max-width: none;\r\n  -ms-content-zooming: none;\r\n  -ms-user-select: none;\r\n  -ms-touch-select: none;\r\n  touch-action: none;\r\n}\r\n\r\n.ril__imageDiscourager {\r\n  background-repeat: no-repeat;\r\n  background-position: center;\r\n  background-size: contain;\r\n}\r\n\r\n.ril__navButtons {\r\n  border: none;\r\n  position: absolute;\r\n  top: 0;\r\n  bottom: 0;\r\n  width: 20px;\r\n  height: 34px;\r\n  padding: 40px 30px;\r\n  margin: auto;\r\n  cursor: pointer;\r\n  opacity: 0.7;\r\n}\r\n.ril__navButtons:hover {\r\n  opacity: 1;\r\n}\r\n.ril__navButtons:active {\r\n  opacity: 0.7;\r\n}\r\n\r\n.ril__navButtonPrev {\r\n  left: 0;\r\n  background: rgba(0, 0, 0, 0.2)\r\n    url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjM0Ij48cGF0aCBkPSJtIDE5LDMgLTIsLTIgLTE2LDE2IDE2LDE2IDEsLTEgLTE1LC0xNSAxNSwtMTUgeiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg==\")\r\n    no-repeat center;\r\n}\r\n\r\n.ril__navButtonNext {\r\n  right: 0;\r\n  background: rgba(0, 0, 0, 0.2)\r\n    url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjM0Ij48cGF0aCBkPSJtIDEsMyAyLC0yIDE2LDE2IC0xNiwxNiAtMSwtMSAxNSwtMTUgLTE1LC0xNSB6IiBmaWxsPSIjRkZGIi8+PC9zdmc+\")\r\n    no-repeat center;\r\n}\r\n\r\n.ril__downloadBlocker {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background-image: url(\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\");\r\n  background-size: cover;\r\n}\r\n\r\n.ril__caption,\r\n.ril__toolbar {\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n  position: absolute;\r\n  left: 0;\r\n  right: 0;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.ril__caption {\r\n  bottom: 0;\r\n  max-height: 150px;\r\n  overflow: auto;\r\n}\r\n\r\n.ril__captionContent {\r\n  padding: 10px 20px;\r\n  color: #fff;\r\n}\r\n\r\n.ril__toolbar {\r\n  top: 0;\r\n  height: 50px;\r\n}\r\n\r\n.ril__toolbarSide {\r\n  height: 50px;\r\n  margin: 0;\r\n}\r\n\r\n.ril__toolbarLeftSide {\r\n  padding-left: 20px;\r\n  padding-right: 0;\r\n  flex: 0 1 auto;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.ril__toolbarRightSide {\r\n  padding-left: 0;\r\n  padding-right: 20px;\r\n  flex: 0 0 auto;\r\n}\r\n\r\n.ril__toolbarItem {\r\n  display: inline-block;\r\n  line-height: 50px;\r\n  padding: 0;\r\n  color: #fff;\r\n  font-size: 120%;\r\n  max-width: 100%;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  white-space: nowrap;\r\n}\r\n\r\n.ril__toolbarItemChild {\r\n  vertical-align: middle;\r\n}\r\n\r\n.ril__builtinButton {\r\n  width: 40px;\r\n  height: 35px;\r\n  cursor: pointer;\r\n  border: none;\r\n  opacity: 0.7;\r\n}\r\n.ril__builtinButton:hover {\r\n  opacity: 1;\r\n}\r\n.ril__builtinButton:active {\r\n  outline: none;\r\n}\r\n\r\n.ril__builtinButtonDisabled {\r\n  cursor: default;\r\n  opacity: 0.5;\r\n}\r\n.ril__builtinButtonDisabled:hover {\r\n  opacity: 0.5;\r\n}\r\n\r\n.ril__closeButton {\r\n  background: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48cGF0aCBkPSJtIDEsMyAxLjI1LC0xLjI1IDcuNSw3LjUgNy41LC03LjUgMS4yNSwxLjI1IC03LjUsNy41IDcuNSw3LjUgLTEuMjUsMS4yNSAtNy41LC03LjUgLTcuNSw3LjUgLTEuMjUsLTEuMjUgNy41LC03LjUgLTcuNSwtNy41IHoiIGZpbGw9IiNGRkYiLz48L3N2Zz4=\")\r\n    no-repeat center;\r\n}\r\n/* \r\n.ril__zoomInButton {\r\n  background: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PHBhdGggZD0iTTEgMTlsNi02Ii8+PHBhdGggZD0iTTkgOGg2Ii8+PHBhdGggZD0iTTEyIDV2NiIvPjwvZz48Y2lyY2xlIGN4PSIxMiIgY3k9IjgiIHI9IjciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+\")\r\n    no-repeat center;\r\n}\r\n\r\n.ril__zoomOutButton {\r\n  background: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGcgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PHBhdGggZD0iTTEgMTlsNi02Ii8+PHBhdGggZD0iTTkgOGg2Ii8+PC9nPjxjaXJjbGUgY3g9IjEyIiBjeT0iOCIgcj0iNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=\")\r\n    no-repeat center;\r\n} */\r\n\r\n.ril__outerAnimating {\r\n  animation-name: closeWindow;\r\n}\r\n\r\n@keyframes pointFade {\r\n  0%,\r\n  19.999%,\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n  20% {\r\n    opacity: 1;\r\n  }\r\n}\r\n\r\n.ril__loadingCircle {\r\n  width: 60px;\r\n  height: 60px;\r\n  position: relative;\r\n}\r\n\r\n.ril__loadingCirclePoint {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n}\r\n.ril__loadingCirclePoint::before {\r\n  content: \"\";\r\n  display: block;\r\n  margin: 0 auto;\r\n  width: 11%;\r\n  height: 30%;\r\n  background-color: #fff;\r\n  border-radius: 30%;\r\n  animation: pointFade 800ms infinite ease-in-out both;\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(1) {\r\n  transform: rotate(0deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(7) {\r\n  transform: rotate(180deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(1)::before,\r\n.ril__loadingCirclePoint:nth-of-type(7)::before {\r\n  animation-delay: -800ms;\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(2) {\r\n  transform: rotate(30deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(8) {\r\n  transform: rotate(210deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(2)::before,\r\n.ril__loadingCirclePoint:nth-of-type(8)::before {\r\n  animation-delay: -666ms;\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(3) {\r\n  transform: rotate(60deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(9) {\r\n  transform: rotate(240deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(3)::before,\r\n.ril__loadingCirclePoint:nth-of-type(9)::before {\r\n  animation-delay: -533ms;\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(4) {\r\n  transform: rotate(90deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(10) {\r\n  transform: rotate(270deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(4)::before,\r\n.ril__loadingCirclePoint:nth-of-type(10)::before {\r\n  animation-delay: -400ms;\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(5) {\r\n  transform: rotate(120deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(11) {\r\n  transform: rotate(300deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(5)::before,\r\n.ril__loadingCirclePoint:nth-of-type(11)::before {\r\n  animation-delay: -266ms;\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(6) {\r\n  transform: rotate(150deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(12) {\r\n  transform: rotate(330deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(6)::before,\r\n.ril__loadingCirclePoint:nth-of-type(12)::before {\r\n  animation-delay: -133ms;\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(7) {\r\n  transform: rotate(180deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(13) {\r\n  transform: rotate(360deg);\r\n}\r\n.ril__loadingCirclePoint:nth-of-type(7)::before,\r\n.ril__loadingCirclePoint:nth-of-type(13)::before {\r\n  animation-delay: 0ms;\r\n}\r\n\r\n.ril__loadingContainer {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n}\r\n.ril__imagePrev .ril__loadingContainer,\r\n.ril__imageNext .ril__loadingContainer {\r\n  display: none;\r\n}\r\n\r\n.ril__errorContainer {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: #fff;\r\n}\r\n.ril__imagePrev .ril__errorContainer,\r\n.ril__imageNext .ril__errorContainer {\r\n  display: none;\r\n}\r\n\r\n.ril__loadingContainer__icon {\r\n  color: #fff;\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translateX(-50%) translateY(-50%);\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/HomePage/HomePage.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/HomePage/HomePage.css ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".home-section {\r\n  height: 100vh;\r\n  overflow: hidden;\r\n}\r\n\r\n.title {\r\n  font-family: \"Courier New\", Courier, monospace;\r\n  letter-spacing: 3px;\r\n  color: white;\r\n  margin: 0;\r\n  padding: 1rem;\r\n  background: rgba(31, 28, 28, 0.5);\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  margin-right: -50%;\r\n  transform: translate(-50%, -50%);\r\n}\r\n#sub-title {\r\n  font-weight: bold;\r\n  letter-spacing: 3px;\r\n  color: white;\r\n  position: absolute;\r\n  top: 60%;\r\n  left: 50%;\r\n  margin-right: -50%;\r\n  transform: translate(-50%, -50%);\r\n}\r\n.git-button {\r\n  position: absolute;\r\n  top: 70%;\r\n  left: 50%;\r\n  margin-right: -50%;\r\n  transform: translate(-50%, -50%);\r\n}\r\n\r\n/* Button */\r\n.button {\r\n  -moz-appearance: none;\r\n  -webkit-appearance: none;\r\n  appearance: none;\r\n  transition: border-color 0.2s ease;\r\n  display: block;\r\n  margin: 0 auto;\r\n  background-color: transparent;\r\n  border: solid 3px !important;\r\n  /* border-color: rgba(255, 255, 255, 0.15) !important; */\r\n  border-radius: 3em;\r\n  color: #0f0f0f !important;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  font-size: 0.65em;\r\n  font-weight: 900;\r\n  height: calc(4.75em + 2px);\r\n  letter-spacing: 0.3em;\r\n  line-height: 4.75em;\r\n  outline: 0;\r\n  padding: 0 3.75em;\r\n  position: relative;\r\n  text-align: center;\r\n  text-decoration: none !important;\r\n  text-transform: uppercase;\r\n  white-space: nowrap;\r\n}\r\n\r\nbutton:hover,\r\n.button:hover {\r\n  border-color: rgba(255, 255, 255, 0.55) !important;\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Navbar/Navbar.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/Navbar/Navbar.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".navigation {\r\n  position: fixed;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 50px;\r\n  z-index: 1000;\r\n  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);\r\n}\r\n.nav-content ul {\r\n  font-family: \"Times New Roman\", Times, serif;\r\n  letter-spacing: 2px;\r\n  color: white;\r\n  cursor: pointer;\r\n  list-style: none;\r\n  text-align: right;\r\n  padding-top: 10px;\r\n}\r\n\r\n.nav-content ul li {\r\n  padding-right: 20px;\r\n  display: inline;\r\n}\r\n.nav-items {\r\n  padding-right: 50px;\r\n}\r\n\r\n.nav-item:hover {\r\n  cursor: pointer;\r\n}\r\n.nav-item > .active {\r\n  border-bottom: 5px solid #888888;\r\n}\r\n\r\n@media only screen and (max-width: 300px) {\r\n  .nav-content ul {\r\n    font-family: \"Times New Roman\", Times, serif;\r\n    letter-spacing: 0px;\r\n    color: white;\r\n    cursor: pointer;\r\n    list-style: none;\r\n    text-align: right;\r\n  }\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/ProcessPage/ProcessPage.css":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/ProcessPage/ProcessPage.css ***!
+  \*******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".process-section {\r\n  background-image: linear-gradient(#0b1e39, #270730);\r\n  padding-top: 60px;\r\n}\r\n.card {\r\n  height: 20rem;\r\n  width: 25rem;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  margin: 10px;\r\n}\r\n\r\n.techno-img {\r\n  margin-top: 3rem;\r\n  width: 7rem;\r\n  height: 7rem;\r\n  object-fit: cover;\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/TeamPage/TeamPage.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Components/TeamPage/TeamPage.css ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".team-section {\r\n  background-image: linear-gradient(#0b1e39, #270730);\r\n  padding-top: 55px;\r\n}\r\n.profile-img {\r\n  width: 9rem;\r\n  height: 9rem;\r\n  object-fit: cover;\r\n  border-radius: 50%;\r\n}\r\n.team-card {\r\n  height: 23rem;\r\n  width: 25rem;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n\r\n  margin-bottom: 10px;\r\n}\r\n.content {\r\n  margin-top: 1rem;\r\n}\r\na:link {\r\n  text-decoration: none;\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "body {\r\n  margin: 0;\r\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\r\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\r\n    sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  box-sizing: border-box;\r\n}\r\n\r\ncode {\r\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\r\n    monospace;\r\n}\r\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Components/Navbar/Navbar */ "./src/Components/Navbar/Navbar.js");
+/* harmony import */ var _Components_HomePage_HomePage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/HomePage/HomePage */ "./src/Components/HomePage/HomePage.js");
+/* harmony import */ var _Components_DemoPage_DemoPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Components/DemoPage/DemoPage */ "./src/Components/DemoPage/DemoPage.js");
+/* harmony import */ var _Components_ProcessPage_ProcessPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Components/ProcessPage/ProcessPage */ "./src/Components/ProcessPage/ProcessPage.js");
+/* harmony import */ var _Components_GalleryPage_GalleryPage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Components/GalleryPage/GalleryPage */ "./src/Components/GalleryPage/GalleryPage.js");
+/* harmony import */ var _Components_TeamPage_TeamPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Components/TeamPage/TeamPage */ "./src/Components/TeamPage/TeamPage.js");
+/* harmony import */ var _Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Components/Footer/Footer */ "./src/Components/Footer/Footer.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_9__);
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "App",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Element"], {
+      name: "home",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_HomePage_HomePage__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Element"], {
+      name: "demo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_DemoPage_DemoPage__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Element"], {
+      name: "process",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_ProcessPage_ProcessPage__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Element"], {
+      name: "gallery",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_GalleryPage_GalleryPage__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Element"], {
+      name: "team",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_TeamPage_TeamPage__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/Components/DemoPage/DemoPage.css":
+/*!**********************************************!*\
+  !*** ./src/Components/DemoPage/DemoPage.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./DemoPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/DemoPage/DemoPage.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./DemoPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/DemoPage/DemoPage.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./DemoPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/DemoPage/DemoPage.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/Components/DemoPage/DemoPage.js":
+/*!*********************************************!*\
+  !*** ./src/Components/DemoPage/DemoPage.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_typical__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-typical */ "./node_modules/react-typical/dist/index.es.js");
+/* harmony import */ var _material_ui_core___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/ */ "./node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var _DemoPage_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./DemoPage.css */ "./src/Components/DemoPage/DemoPage.css");
+/* harmony import */ var _DemoPage_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_DemoPage_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\Components\\DemoPage\\DemoPage.js";
+
+
+
+
+
+class DemoPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "demo-section",
+      id: "demo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "demo-text",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_typical__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      steps: ["D E M O", 500],
+      loop: 10,
+      wrapper: "h2",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      variant: "body1",
+      component: "h2",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, "Welcome to the Demo of the collaborative AR game ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, "Disasteroid"), "!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "vid-container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+      src: "https://player.vimeo.com/video/362024625?title=0&byline=0&portrait=0",
+      frameBorder: "0",
+      allow: "autoplay; fullscreen",
+      allowFullScreen: true,
+      align: "right",
+      width: "50%",
+      height: "50%",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (DemoPage);
+
+/***/ }),
+
+/***/ "./src/Components/Footer/Footer.css":
+/*!******************************************!*\
+  !*** ./src/Components/Footer/Footer.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Footer/Footer.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Footer/Footer.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Footer/Footer.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/Components/Footer/Footer.js":
+/*!*****************************************!*\
+  !*** ./src/Components/Footer/Footer.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.css */ "./src/Components/Footer/Footer.css");
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\Components\\Footer\\Footer.js";
+
+
+
+function Footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    className: "footer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "\xA9 DH2413 Advanced Graphics and Interaction."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, " Created by Nahida Isalm."));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/Components/GalleryPage/GalleryPage.css":
+/*!****************************************************!*\
+  !*** ./src/Components/GalleryPage/GalleryPage.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./GalleryPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/GalleryPage/GalleryPage.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./GalleryPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/GalleryPage/GalleryPage.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./GalleryPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/GalleryPage/GalleryPage.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/Components/GalleryPage/GalleryPage.js":
+/*!***************************************************!*\
+  !*** ./src/Components/GalleryPage/GalleryPage.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_image_lightbox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-image-lightbox */ "./node_modules/react-image-lightbox/dist/index.es.js");
+/* harmony import */ var _material_ui_core___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/ */ "./node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var _Image_Process_image1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Image/Process/image1.jpg */ "./src/Image/Process/image1.jpg");
+/* harmony import */ var _Image_Process_image1_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Image_Process_image1_jpg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Image_Process_image2_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Image/Process/image2.jpg */ "./src/Image/Process/image2.jpg");
+/* harmony import */ var _Image_Process_image2_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Image_Process_image2_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Image_Process_image3_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Image/Process/image3.jpg */ "./src/Image/Process/image3.jpg");
+/* harmony import */ var _Image_Process_image3_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Image_Process_image3_jpg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Image_Process_image4_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Image/Process/image4.jpg */ "./src/Image/Process/image4.jpg");
+/* harmony import */ var _Image_Process_image4_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Image_Process_image4_jpg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _Image_Process_image5_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Image/Process/image5.jpg */ "./src/Image/Process/image5.jpg");
+/* harmony import */ var _Image_Process_image5_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Image_Process_image5_jpg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Image_Process_image6_JPG__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Image/Process/image6.JPG */ "./src/Image/Process/image6.JPG");
+/* harmony import */ var _Image_Process_image6_JPG__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Image_Process_image6_JPG__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _Image_Process_image7_JPG__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../Image/Process/image7.JPG */ "./src/Image/Process/image7.JPG");
+/* harmony import */ var _Image_Process_image7_JPG__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_Image_Process_image7_JPG__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Image_Process_image8_JPG__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../Image/Process/image8.JPG */ "./src/Image/Process/image8.JPG");
+/* harmony import */ var _Image_Process_image8_JPG__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_Image_Process_image8_JPG__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _GalleryPage_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./GalleryPage.css */ "./src/Components/GalleryPage/GalleryPage.css");
+/* harmony import */ var _GalleryPage_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_GalleryPage_css__WEBPACK_IMPORTED_MODULE_11__);
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\Components\\GalleryPage\\GalleryPage.js";
+
+
+
+
+
+
+
+
+
+
+
+
+const images = [_Image_Process_image1_jpg__WEBPACK_IMPORTED_MODULE_3___default.a, _Image_Process_image2_jpg__WEBPACK_IMPORTED_MODULE_4___default.a, _Image_Process_image3_jpg__WEBPACK_IMPORTED_MODULE_5___default.a, _Image_Process_image4_jpg__WEBPACK_IMPORTED_MODULE_6___default.a, _Image_Process_image5_jpg__WEBPACK_IMPORTED_MODULE_7___default.a, _Image_Process_image6_JPG__WEBPACK_IMPORTED_MODULE_8___default.a, _Image_Process_image7_JPG__WEBPACK_IMPORTED_MODULE_9___default.a, _Image_Process_image8_JPG__WEBPACK_IMPORTED_MODULE_10___default.a];
+const captions = ["A regular work day, Photo: Nahida Islam, license: CC0", "A pizza break was needed, Photo: Nahida Islam, license: CC0", "The special weapon: Satellite, Photo: Nahida Islam, license: CC0", "Scan the satellite, Photo: Nahida Islam, license: CC0", "Satellite appeared in the scene, Photo: Nahida Islam, license: CC0", "An asteroid and it's predicted path, Photo: Nahida Islam, license: CC0", "A bomb is launched, Photo: Nahida Islam, license: CC0", "Participants during open house, Photo: Nahida Islam, license: CC0"];
+
+class GalleryPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      photoIndex: 0,
+      isOpen: false,
+      caption: null
+    };
+  }
+
+  render() {
+    const _this$state = this.state,
+          photoIndex = _this$state.photoIndex,
+          isOpen = _this$state.isOpen,
+          caption = _this$state.caption;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "gallery-section",
+      id: "gallery",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      container: true,
+      direction: "row",
+      justify: "space-around",
+      alignContent: "center",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+      className: "frame",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Process_image1_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
+      alt: "Working day",
+      className: "img-fluid",
+      onClick: () => this.setState({
+        photoIndex: 0,
+        isOpen: true,
+        caption: "A regular work day, Photo: Nahida Islam, license: CC0"
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+      className: "frame",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Process_image2_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
+      alt: "Pizza break",
+      className: "img-fluid",
+      onClick: () => this.setState({
+        photoIndex: 1,
+        isOpen: true,
+        caption: "A pizza break was needed, Photo: Nahida Islam, license: CC0"
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68
+      },
+      __self: this
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 83
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+      className: "frame",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Process_image3_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
+      alt: "The satellite",
+      className: "img-fluid",
+      onClick: () => this.setState({
+        photoIndex: 2,
+        isOpen: true,
+        caption: "The special weapon: Satellite, Photo: Nahida Islam, license: CC0"
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 85
+      },
+      __self: this
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 100
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+      className: "frame",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Process_image4_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
+      alt: "scanning satellite",
+      className: "img-fluid",
+      onClick: () => this.setState({
+        photoIndex: 3,
+        isOpen: true,
+        caption: "Scan the satellite, Photo: Nahida Islam, license: CC0"
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 102
+      },
+      __self: this
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+      className: "frame",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 118
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Process_image5_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+      alt: "Satellite appear",
+      className: "img-fluid",
+      onClick: () => this.setState({
+        photoIndex: 4,
+        isOpen: true,
+        caption: "Satellite appeared in the scene, Photo: Nahida Islam, license: CC0"
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 119
+      },
+      __self: this
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 134
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+      className: "frame",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 135
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Process_image6_JPG__WEBPACK_IMPORTED_MODULE_8___default.a,
+      alt: "Asteroid",
+      className: "img-fluid",
+      onClick: () => this.setState({
+        photoIndex: 5,
+        isOpen: true,
+        caption: "An asteroid and it's predicted path, Photo: Nahida Islam, license: CC0"
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 136
+      },
+      __self: this
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 151
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+      className: "frame",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 152
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Process_image7_JPG__WEBPACK_IMPORTED_MODULE_9___default.a,
+      alt: "Launch bomb",
+      className: "img-fluid",
+      onClick: () => this.setState({
+        photoIndex: 6,
+        isOpen: true,
+        caption: "A bomb is launched, Photo: Nahida Islam, license: CC0"
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 153
+      },
+      __self: this
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 168
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+      className: "frame",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 169
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Process_image8_JPG__WEBPACK_IMPORTED_MODULE_10___default.a,
+      alt: "Amazed",
+      className: "img-fluid",
+      onClick: () => this.setState({
+        photoIndex: 7,
+        isOpen: true,
+        caption: "Participants during open house, Photo: Nahida Islam, license: CC0"
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 170
+      },
+      __self: this
+    })))), isOpen && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_image_lightbox__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      enableZoom: false,
+      mainSrc: images[photoIndex],
+      nextSrc: images[(photoIndex + 1) % images.length],
+      prevSrc: images[(photoIndex + images.length - 1) % images.length],
+      imageTitle: photoIndex + 1 + "/" + images.length,
+      imageCaption: captions[photoIndex],
+      onCloseRequest: () => this.setState({
+        isOpen: false
+      }),
+      onMovePrevRequest: () => this.setState({
+        photoIndex: (photoIndex + images.length - 1) % images.length
+      }),
+      onMoveNextRequest: () => this.setState({
+        photoIndex: (photoIndex + 1) % images.length
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 188
+      },
+      __self: this
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (GalleryPage);
+
+/***/ }),
+
+/***/ "./src/Components/HomePage/HomePage.css":
+/*!**********************************************!*\
+  !*** ./src/Components/HomePage/HomePage.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./HomePage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/HomePage/HomePage.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./HomePage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/HomePage/HomePage.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./HomePage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/HomePage/HomePage.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/Components/HomePage/HomePage.js":
+/*!*********************************************!*\
+  !*** ./src/Components/HomePage/HomePage.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_typical__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-typical */ "./node_modules/react-typical/dist/index.es.js");
+/* harmony import */ var _Image_earth_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Image/earth.png */ "./src/Image/earth.png");
+/* harmony import */ var _Image_earth_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Image_earth_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _HomePage_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HomePage.css */ "./src/Components/HomePage/HomePage.css");
+/* harmony import */ var _HomePage_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_HomePage_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\Components\\HomePage\\HomePage.js";
+
+
+
+
+var sectionStyle = {
+  width: "100%",
+  height: "100%",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+  backgroundImage: "url(".concat(_Image_earth_png__WEBPACK_IMPORTED_MODULE_2___default.a, ")")
+};
+
+class HomePage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "home-section",
+      id: "home",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      style: sectionStyle,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_typical__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      className: "title",
+      steps: ["D I S A S T E R O I D", 500],
+      loop: 10,
+      wrapper: "h1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      id: "sub-title",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }, "A collaborative AR game, aiming to save the world."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: "actions git-button",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://github.com/arquLV/Disasteroid",
+      target: "_blank",
+      className: "button scrolly",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, "GitHub")));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (HomePage);
+
+/***/ }),
+
+/***/ "./src/Components/Navbar/Navbar.css":
+/*!******************************************!*\
+  !*** ./src/Components/Navbar/Navbar.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Navbar/Navbar.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Navbar/Navbar.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Navbar/Navbar.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/Components/Navbar/Navbar.js":
+/*!*****************************************!*\
+  !*** ./src/Components/Navbar/Navbar.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar.css */ "./src/Components/Navbar/Navbar.css");
+/* harmony import */ var _Navbar_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Navbar_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\Components\\Navbar\\Navbar.js";
+
+
+
+
+class Navbar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "navigation",
+      id: "navbar",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "nav-content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: " nav-items",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      activeClass: "active",
+      to: "home",
+      spy: true,
+      smooth: true,
+      duration: 500,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      activeClass: "active",
+      to: "demo",
+      spy: true,
+      smooth: true,
+      duration: 500,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, "Demo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      activeClass: "active",
+      to: "process",
+      spy: true,
+      smooth: true,
+      duration: 500,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, "Process")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      activeClass: "active",
+      to: "gallery",
+      spy: true,
+      smooth: true,
+      duration: 500,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, "Gallery")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      activeClass: "active",
+      to: "team",
+      spy: true,
+      smooth: true,
+      duration: 500,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
+      },
+      __self: this
+    }, "Team")))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./src/Components/ProcessPage/ProcessPage.css":
+/*!****************************************************!*\
+  !*** ./src/Components/ProcessPage/ProcessPage.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./ProcessPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/ProcessPage/ProcessPage.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./ProcessPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/ProcessPage/ProcessPage.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./ProcessPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/ProcessPage/ProcessPage.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/Components/ProcessPage/ProcessPage.js":
+/*!***************************************************!*\
+  !*** ./src/Components/ProcessPage/ProcessPage.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/ */ "./node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var _Image_Technologies_ARCore_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Image/Technologies/ARCore.jpg */ "./src/Image/Technologies/ARCore.jpg");
+/* harmony import */ var _Image_Technologies_ARCore_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Image_Technologies_ARCore_jpg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Image_Technologies_blender_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Image/Technologies/blender.jpg */ "./src/Image/Technologies/blender.jpg");
+/* harmony import */ var _Image_Technologies_blender_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Image_Technologies_blender_jpg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Image_Technologies_unity_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Image/Technologies/unity.png */ "./src/Image/Technologies/unity.png");
+/* harmony import */ var _Image_Technologies_unity_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Image_Technologies_unity_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ProcessPage_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ProcessPage.css */ "./src/Components/ProcessPage/ProcessPage.css");
+/* harmony import */ var _ProcessPage_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_ProcessPage_css__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\Components\\ProcessPage\\ProcessPage.js";
+
+
+
+
+
+
+
+const styles = muiBaseTheme => ({
+  media: {
+    paddingTop: "56.25%"
+  },
+  content: {
+    textAlign: "left",
+    padding: muiBaseTheme.spacing.unit * 3
+  },
+  divider: {
+    margin: "".concat(muiBaseTheme.spacing.unit * 3, "px 0")
+  },
+  heading: {
+    fontWeight: "bold"
+  },
+  subheading: {
+    lineHeight: 1.8
+  }
+});
+
+class ProcessPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "process-section",
+      id: "process",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+      container: true,
+      direction: "row",
+      justify: "space-around",
+      alignContent: "center",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Card"], {
+      className: "card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, "Goals & motivations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      color: "inherit",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56
+      },
+      __self: this
+    }, "The goal of Disasteroid is to make fun dark humor themed collaborative AR game. The game involves the player to save the earth from asteroids using missiles and a special weapon. Creating missiles and the special weapon involves using resources from the earth. The player, therefore, has to deal with the dilemma of whether or not they are actually saving the earth.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Card"], {
+      className: "card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 74
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75
+      },
+      __self: this
+    }, "Graphics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 82
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      color: "inherit",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 83
+      },
+      __self: this
+    }, "Disasteroid is an earth-based game. It involves low poly earth. The earth is painted according to a vegetation map to give the player information about the population density. The player can then try to deflect the asteroids in a less dense area.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 97
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Card"], {
+      className: "card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 98
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 100
+      },
+      __self: this
+    }, "Interaction"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 107
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      color: "inherit",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 108
+      },
+      __self: this
+    }, "The game is supported on Android 7.0 'Nougat' (API Level 24) or higher. The game is meant to be played by multiple people working as a team. An image based marker as a single source of truth for all players was used to avoid any pre-mapping of the playing environment before every game session. Using Photon networking package for Unity with smart compensation for any lag in the network, smooth and synchronized asteroid motion, impacts and player interactions are achieved, allowing for a truly immersive real-time multiplayer experience in AR on a whole room scale.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 127
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Card"], {
+      className: "card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 128
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 129
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 130
+      },
+      __self: this
+    }, "3D Models"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 137
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      color: "inherit",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 138
+      },
+      __self: this
+    }, "A satellite with a gun on top of it was 3D printed to represent the special weapon. A image was attached to it in order to be able to track the satellite on the AR scene.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 150
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Card"], {
+      className: "card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 151
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 152
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 153
+      },
+      __self: this
+    }, "Technologies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 160
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://unity.com/",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 161
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Technologies_unity_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+      alt: "unity",
+      className: "techno-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 162
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://developers.google.com/ar",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 164
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Technologies_ARCore_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+      alt: "ARCore",
+      className: "techno-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 165
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.blender.org/",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 167
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Technologies_blender_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
+      alt: "blender",
+      className: "techno-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 168
+      },
+      __self: this
+    }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 173
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Card"], {
+      className: "card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 174
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 175
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 176
+      },
+      __self: this
+    }, "Challenges & Lesson Learned"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 183
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      color: "inherit",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 184
+      },
+      __self: this
+    }, "One of the main challenges was the multiplayer mechanics. Because of the nature of the game the AR scene has to be consistent from the players' viewpoint. While most of the physics simulations are run locally on each phone , a centralized master node is employed, processing game events and providing authoritative positioning data to all the clients for correction of any possible discrepancies."))))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ProcessPage);
+
+/***/ }),
+
+/***/ "./src/Components/TeamPage/TeamPage.css":
+/*!**********************************************!*\
+  !*** ./src/Components/TeamPage/TeamPage.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./TeamPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/TeamPage/TeamPage.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./TeamPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/TeamPage/TeamPage.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./TeamPage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/TeamPage/TeamPage.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/Components/TeamPage/TeamPage.js":
+/*!*********************************************!*\
+  !*** ./src/Components/TeamPage/TeamPage.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
+/* harmony import */ var _material_ui_core___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/ */ "./node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var _Image_Team_arturs_JPG__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Image/Team/arturs.JPG */ "./src/Image/Team/arturs.JPG");
+/* harmony import */ var _Image_Team_arturs_JPG__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Image_Team_arturs_JPG__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Image_Team_augustin_JPG__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Image/Team/augustin.JPG */ "./src/Image/Team/augustin.JPG");
+/* harmony import */ var _Image_Team_augustin_JPG__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Image_Team_augustin_JPG__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Image_Team_chantal_JPG__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Image/Team/chantal.JPG */ "./src/Image/Team/chantal.JPG");
+/* harmony import */ var _Image_Team_chantal_JPG__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Image_Team_chantal_JPG__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Image_Team_miki_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Image/Team/miki.jpg */ "./src/Image/Team/miki.jpg");
+/* harmony import */ var _Image_Team_miki_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Image_Team_miki_jpg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _Image_Team_nahida_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Image/Team/nahida.jpg */ "./src/Image/Team/nahida.jpg");
+/* harmony import */ var _Image_Team_nahida_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Image_Team_nahida_jpg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Image_Team_tingyi_JPG__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Image/Team/tingyi.JPG */ "./src/Image/Team/tingyi.JPG");
+/* harmony import */ var _Image_Team_tingyi_JPG__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Image_Team_tingyi_JPG__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _TeamPage_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./TeamPage.css */ "./src/Components/TeamPage/TeamPage.css");
+/* harmony import */ var _TeamPage_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_TeamPage_css__WEBPACK_IMPORTED_MODULE_9__);
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\Components\\TeamPage\\TeamPage.js";
+
+
+
+
+
+
+
+
+
+
+
+const styles = muiBaseTheme => ({
+  media: {
+    paddingTop: "56.25%"
+  },
+  content: {
+    textAlign: "left",
+    padding: muiBaseTheme.spacing.unit * 3
+  },
+  divider: {
+    margin: "".concat(muiBaseTheme.spacing.unit * 3, "px 0")
+  },
+  heading: {
+    fontWeight: "bold"
+  },
+  subheading: {
+    lineHeight: 1.8
+  }
+});
+
+class TeamPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "team-section",
+      id: "team",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      container: true,
+      direction: "row",
+      justify: "space-around",
+      alignContent: "center",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Card"], {
+      className: "team-card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Team_arturs_JPG__WEBPACK_IMPORTED_MODULE_3___default.a,
+      alt: "profile-pricture",
+      className: "profile-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
+      },
+      __self: this
+    }, "Arturs Kurzemnieks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }, "Technical lead for the project. Implemented the networking and synchronization of all objects and events in the game to ensure a consistent multiplayer experience, as well as parts of the user interactions, including satellite spawning and missile mechanics."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "mailto:artursk@kth.se",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaEnvelope"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.linkedin.com/in/arturs-kurzemnieks/",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 79
+      },
+      __self: this
+    }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaLinkedin"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: this
+    })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Card"], {
+      className: "team-card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 91
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Team_augustin_JPG__WEBPACK_IMPORTED_MODULE_4___default.a,
+      alt: "profile-pricture",
+      className: "profile-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 92
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 97
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 98
+      },
+      __self: this
+    }, "Augustin Bariant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 105
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 106
+      },
+      __self: this
+    }, "We are going to learn different kinds of species in nature that live together to form amazing environment."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 113
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "mailto:bariant@kth.se",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaEnvelope"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 115
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.linkedin.com/in/augustin-bariant-2b0986172/",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117
+      },
+      __self: this
+    }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaLinkedin"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 122
+      },
+      __self: this
+    })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 128
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Card"], {
+      className: "team-card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 129
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Team_chantal_JPG__WEBPACK_IMPORTED_MODULE_5___default.a,
+      alt: "profile-pricture",
+      className: "profile-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 130
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 135
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 136
+      },
+      __self: this
+    }, "Chantal Hundscheid"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 143
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 144
+      },
+      __self: this
+    }, "We are going to learn different kinds of species in nature that live together to form amazing environment."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 151
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "mailto:chantalh@kth.se",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 152
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaEnvelope"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 153
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.linkedin.com/in/chantal-hundscheid/",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 155
+      },
+      __self: this
+    }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaLinkedin"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 160
+      },
+      __self: this
+    })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 166
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Card"], {
+      className: "team-card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 167
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Team_miki_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
+      alt: "profile-pricture",
+      className: "profile-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 168
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 169
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 170
+      },
+      __self: this
+    }, "Miguel Alvarez Bordils"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 177
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 178
+      },
+      __self: this
+    }, "We are going to learn different kinds of species in nature that live together to form amazing environment."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 185
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "mailto:migab@kth.se",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 186
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaEnvelope"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 187
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.linkedin.com/in/miguelalvarezbordils/",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 189
+      },
+      __self: this
+    }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaLinkedin"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 194
+      },
+      __self: this
+    })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 200
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Card"], {
+      className: "team-card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 201
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Team_nahida_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+      alt: "profile-pricture",
+      className: "profile-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 202
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 207
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 208
+      },
+      __self: this
+    }, "Nahida Islam"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 215
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 216
+      },
+      __self: this
+    }, "Graphics lead for the project. Designed the low poly earth, missile, and the satellite using Blender. She was responsible for the 3D printing and decorating of the special weapon, satellite. She was also the project leader and responsible for this website."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 226
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "mailto:nahida_1994@hotmail.com",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 227
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaEnvelope"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 228
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.linkedin.com/in/nahida-islam/",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 230
+      },
+      __self: this
+    }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaLinkedin"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 235
+      },
+      __self: this
+    })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Grid"], {
+      item: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 241
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Card"], {
+      className: "team-card",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 242
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _Image_Team_tingyi_JPG__WEBPACK_IMPORTED_MODULE_8___default.a,
+      alt: "profile-pricture",
+      className: "profile-img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 243
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["CardContent"], {
+      className: styles.content,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 248
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--heading",
+      variant: "h6",
+      gutterBottom: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 249
+      },
+      __self: this
+    }, "Tingyi Li"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Divider"], {
+      className: styles.divider,
+      light: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 256
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+      className: "MuiTypography--subheading",
+      variant: "caption",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 257
+      },
+      __self: this
+    }, "We are going to learn different kinds of species in nature that live together to form amazing environment."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 264
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "mailto:tingyi@kth.se",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 265
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaEnvelope"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 266
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.linkedin.com/in/tingyi-li-3b408616a/",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 268
+      },
+      __self: this
+    }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaLinkedin"], {
+      size: 25,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 273
+      },
+      __self: this
+    }))))))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (TeamPage);
+
+/***/ }),
+
+/***/ "./src/Image/Process/image1.jpg":
+/*!**************************************!*\
+  !*** ./src/Image/Process/image1.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image1.009b7526.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Process/image2.jpg":
+/*!**************************************!*\
+  !*** ./src/Image/Process/image2.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image2.72f91517.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Process/image3.jpg":
+/*!**************************************!*\
+  !*** ./src/Image/Process/image3.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image3.b20e65d3.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Process/image4.jpg":
+/*!**************************************!*\
+  !*** ./src/Image/Process/image4.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image4.b7d6e3c6.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Process/image5.jpg":
+/*!**************************************!*\
+  !*** ./src/Image/Process/image5.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image5.55c4f839.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Process/image6.JPG":
+/*!**************************************!*\
+  !*** ./src/Image/Process/image6.JPG ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image6.da1c6454.JPG";
+
+/***/ }),
+
+/***/ "./src/Image/Process/image7.JPG":
+/*!**************************************!*\
+  !*** ./src/Image/Process/image7.JPG ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image7.0b57d76f.JPG";
+
+/***/ }),
+
+/***/ "./src/Image/Process/image8.JPG":
+/*!**************************************!*\
+  !*** ./src/Image/Process/image8.JPG ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image8.c3af70aa.JPG";
+
+/***/ }),
+
+/***/ "./src/Image/Team/arturs.JPG":
+/*!***********************************!*\
+  !*** ./src/Image/Team/arturs.JPG ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/arturs.7ae9d306.JPG";
+
+/***/ }),
+
+/***/ "./src/Image/Team/augustin.JPG":
+/*!*************************************!*\
+  !*** ./src/Image/Team/augustin.JPG ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/augustin.624cf337.JPG";
+
+/***/ }),
+
+/***/ "./src/Image/Team/chantal.JPG":
+/*!************************************!*\
+  !*** ./src/Image/Team/chantal.JPG ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/chantal.2aa9cc14.JPG";
+
+/***/ }),
+
+/***/ "./src/Image/Team/miki.jpg":
+/*!*********************************!*\
+  !*** ./src/Image/Team/miki.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/miki.2e23d59f.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Team/nahida.jpg":
+/*!***********************************!*\
+  !*** ./src/Image/Team/nahida.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/nahida.e8ff9dbf.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Team/tingyi.JPG":
+/*!***********************************!*\
+  !*** ./src/Image/Team/tingyi.JPG ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/tingyi.1165b5a5.JPG";
+
+/***/ }),
+
+/***/ "./src/Image/Technologies/ARCore.jpg":
+/*!*******************************************!*\
+  !*** ./src/Image/Technologies/ARCore.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/ARCore.b214afae.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Technologies/blender.jpg":
+/*!********************************************!*\
+  !*** ./src/Image/Technologies/blender.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/blender.03ffca35.jpg";
+
+/***/ }),
+
+/***/ "./src/Image/Technologies/unity.png":
+/*!******************************************!*\
+  !*** ./src/Image/Technologies/unity.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/unity.437ebf4d.png";
+
+/***/ }),
+
+/***/ "./src/Image/earth.png":
+/*!*****************************!*\
+  !*** ./src/Image/earth.png ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/earth.0097a676.png";
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "C:\\Users\\nahid\\Workspace\\GitHub\\Disasteroid-website\\disasteroid\\src\\index.js";
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}), document.getElementById("root"));
+_serviceWorker__WEBPACK_IMPORTED_MODULE_5__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\nahid\Workspace\GitHub\Disasteroid-website\disasteroid\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\nahid\Workspace\GitHub\Disasteroid-website\disasteroid\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime-main",0]]]);
+//# sourceMappingURL=main.chunk.js.map
