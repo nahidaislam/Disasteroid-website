@@ -145,8 +145,11 @@ class TeamPage extends Component {
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
                 >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
+                  Implemented the scripts behind the special weapon "satellite"
+                  (searching nearest asteroid and shoot), resources (increment
+                  and decrement of the values depending on events), and impact
+                  visualization (asteroid hit on land and water) were her main
+                  areas.
                 </Typography>
                 <div className="content">
                   <a href="mailto:chantalh@kth.se">
