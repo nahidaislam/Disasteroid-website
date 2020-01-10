@@ -107,8 +107,9 @@ class TeamPage extends Component {
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
                 >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
+                  Implemented the scripts behind asteroid spawning, visualizing
+                  the asteroid paths i.e. precalculated orbits and mapping the
+                  world population heatmap.
                 </Typography>
                 <div className="content">
                   <a href="mailto:bariant@kth.se">
@@ -182,8 +183,9 @@ class TeamPage extends Component {
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
                 >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
+                  Miguel has worked mainly focused on the missile launching
+                  mechanism. Positioning the missiles and being drawn towards
+                  the asteroids were implemented by him.
                 </Typography>
                 <div className="content">
                   <a href="mailto:migab@kth.se">
@@ -261,8 +263,9 @@ class TeamPage extends Component {
                   className={"MuiTypography--subheading"}
                   variant={"caption"}
                 >
-                  We are going to learn different kinds of species in nature
-                  that live together to form amazing environment.
+                  Tingyi mainly focused on the UI. She has worked with designing
+                  the start page and the main screen (Population bar and CO
+                  <sub>2</sub> bar).
                 </Typography>
                 <div className="content">
                   <a href="mailto:tingyi@kth.se">
